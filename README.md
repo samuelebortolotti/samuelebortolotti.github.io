@@ -1,10 +1,10 @@
 # Samuele Bortolotti's web site
 
-My personal web site made with [Jekyll](https://jekyllrb.com/) and hosted through [Github Pages](https://pages.github.com/).
+My personal web site made with [Jekyll](https://jekyllrb.com/) and hosted with [GitHub Pages](https://pages.github.com/).
 
 The website is completely static and does not include JavaScript.
 
-Be careful using JavaScript, [here](https://www.gnu.org/philosophy/javascript-trap.en.html) an interesting reading from Richard Stallman.
+Always remember to be careful using JavaScript, [see](https://www.gnu.org/philosophy/javascript-trap.en.html) an interesting reading from Richard Stallman.
 
 ## Github Pages deployment
 
@@ -26,7 +26,7 @@ or alternatively:
 make install
 ```
 
-> For other functionalities you can check out the [Makefile](Makefile) rules by typing 
+> For other functionalities you can check out the [Makefile](Makefile) rules by typing:
 > ```bash
 > make help
 > ```
