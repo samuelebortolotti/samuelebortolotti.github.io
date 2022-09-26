@@ -1,0 +1,157 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(58, 52, 58);
+  font-size: 18px;
+  text-rendering: optimizelegibility;
+}
+
+html, body {
+  font-family: Open Sans, Source Sans Pro, DejaVu Sans, Linux Libertine;
+  line-height: 1.4;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  margin-top: 3em;
+  margin-right: 1em;
+  margin-bottom: 3em;
+  margin-left: 1em;
+}
+
+.nav {
+  max-width: 21rem;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 80%;
+}
+
+.me {
+  max-width: 12rem;
+  border-radius: 100%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 90%;
+  margin-top: 0.5em;
+  margin-right: 0em;
+  margin-bottom: 0.5em;
+  margin-left: 0em;
+}
+
+.links {
+  margin-top: 1em;
+  opacity: 0.7;
+  display: flex;
+  font-size: 90%;
+  justify-content: space-between;
+}
+
+.navlinks {
+  list-style-type: none;
+  padding-top: 1em;
+  padding-right: 0em;
+  padding-bottom: 1em;
+  padding-left: 0em;
+}
+
+.navlinks li a {
+  outline: currentcolor none medium;
+  border-left: 1px solid transparent;
+  padding: 0.5em;
+  font-weight: 700;
+}
+
+.navlinks li {
+  margin-left: -0.5em;
+  padding-left: 0em;
+}
+
+.navlinks li a.active {
+  border-left: 1px solid rgb(76, 86, 106);
+}
+
+.links a.active {
+  text-decoration: underline;
+}
+
+li {
+  margin-bottom: 0.7rem;
+  padding-left: 1.4rem;
+}
+
+.content {
+  max-width: 60%;
+  flex-grow: 1;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.post {
+  margin: 0px;
+  font-size: 80%;
+  font-weight: light;
+  margin-top: 2em;
+}
+
+.post-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+table {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table th {
+  padding: 3px 10px;
+  border-bottom: 1px solid black;
+}
+
+table td {
+  padding: 3px 10px;
+}
+
+blockquote {
+  padding: 0 1em;
+  color: #57606a;
+  border-left: .25em solid #57606a;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    flex-direction: column;
+  }
+  .nav {
+    max-width: none;
+  }
+  .content {
+    max-width: 100%;
+  }
+}

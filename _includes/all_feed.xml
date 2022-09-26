@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xml:lang="en">
+  <channel>
+    <title type="html">{{ site.title }}</title>
+    <author>
+      <name>{{ site.author }}</name>
+    </author>
+    <link>{{ site.url }}</link>
+    <updated>{{ site.time | date_to_rfc822 }}</updated>
+    <description>{{ site.description }}</description>
+    <link href="{{ page.baseurl | absolute_url }}" rel="alternate" type="text/html"/>
+    <atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
+      {% assign posts = site.documents | where:"layout", "post" | sort: 'date' | reverse %}{%
+      for post in posts limit:20 %}{%
+        assign collection_prefix = "" %}{%
+        if post.collection != "posts" %}{%
+          assign collection = site.collections | where:"label", post.collection | first %}{%
+          capture collection_prefix %}{{ collection.title_singular }} - {% endcapture %}{%
+          endif
+      %}<item xml:lang="{{ post.lang }}">
+          <category>{{ post.type }}</category>
+          <title type="html">{{ collection_prefix }}{{ post.title | xml_escape }}</title>
+          <description type="html">{{ post.description | xml_escape }}</description>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <link>{{ post.url | absolute_url }}</link>
+          <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+          <author>
+            {% for author in post.author %}
+            <name>{{ author }}</name>
+            {% endfor %}
+          </author>
+        </item>
+      {% endfor%}
+  </channel>
+</rss>

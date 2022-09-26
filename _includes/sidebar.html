@@ -1,0 +1,93 @@
+<div class="nav">
+  <!-- Me -->
+  {% if page.lang == "en" %}
+  <a aria-current="page" href="/">
+  {% else %}
+  <a aria-current="page" href="/{{page.lang}}">
+  {% endif %}
+    <img class="me" alt="Samuele" type="image/jpeg" src="/assets/images/samuele.jpg">
+    <div class="name">
+      Samuele Bortolotti
+    </div>
+  </a>
+  <!-- Short description -->
+  {% if page.lang == "it" %}
+  <p>Studente di laurea magistrale in Informatica presso l'Università degli Studi di Trento, Italia. Nutro interesse per il machine learning, la data science e lo sviluppo software.
+  {% elsif page.lang == "de" %}
+  <p>Master-Student in Informatik an der Universität von Trient, Italien. Interesse an Machine Learning, Data Science und Softwareentwicklung.</p>
+  {% else %}
+  <p>Computer Science Master's student at University of Trento, Italy. Interested in machine learning, data science and software development.</p>
+  {% endif %}
+  <!-- Links on the Sidebar -->
+  <div class="links">
+    <a target="_blank" href="/files/bortolotti_samuele_cv.pdf" type="application/pdf" title="Samuele Bortolotti CV">CV</a>
+    <a target="_blank" href="https://github.com/samuelebortolotti">Github</a>
+    <a target="_blank" href="https://www.linkedin.com/in/samuele-bortolotti">LinkedIn</a>
+    <a target="_blank" href="/feed.xml" type="application/xml">RSS</a>
+    <a target="_blank" href="mailto:samuele.bortolotti@studenti.unitn.it">@</a>
+  </div>
+  <!-- Effective Navbar -->
+  <ul class="navlinks">
+    <li>
+      {% if page.nav_bar == "index" %}
+      <a aria-current="page" class="active" href="/">About</a>
+      {% else %}
+      {% if page.lang == "en" %}
+      <a href="/">About</a>
+      {% else %}
+      <a href="/{{page.lang}}/">About</a>
+      {% endif %}
+      {% endif %}
+    </li>
+    <li>
+      {% if page.nav_bar == "projects" %}
+      <a aria-current="page" class="active" href="/{{page.lang}}/projects">Projects</a>
+      {% else %}
+      {% if page.lang == "en" %}
+      <a href="/projects">Projects</a>
+      {% else %}
+      <a href="/{{page.lang}}/projects">Projects</a>
+      {% endif %}
+      {% endif %}
+    </li>
+    <li>
+      {% if page.nav_bar == "blog" %}
+      <a aria-current="page" class="active" href="/{{page.lang}}/blog">Blog</a>
+      {% else %}
+      {% if page.lang == "en" %}
+      <a href="/blog">Blog</a>
+      {% else %}
+      <a href="/{{page.lang}}/blog">Blog</a>
+      {% endif %}
+      {% endif %}
+    </li>
+    <li>
+      {% if page.nav_bar == "resume" %}
+      <a aria-current="page" class="active" href="/{{page.lang}}/resume">Short R&eacute;sum&eacute;</a>
+      {% else %}
+      {% if page.lang == "en" %}
+      <a href="/resume">Short R&eacute;sum&eacute;</a>
+      {% else %}
+      <a href="/{{page.lang}}/resume">Short R&eacute;sum&eacute;</a>
+      {% endif %}
+      {% endif %}
+    </li>
+  </ul>
+  <div class="links" style="margin-top:0em; font-size:100%">
+    {% if page.lang == "en" %}
+    <a aria-current="page" class="active" href="/{{page.ref}}">🇺🇸 en</a>
+    {% else %}
+    <a href="/{{page.ref}}">🇺🇸 en</a>
+    {% endif %}
+    {% if page.lang == "it" %}
+    <a aria-current="page" class="active" href="/it/{{page.ref}}">🇮🇹 it</a>
+    {% else %}
+    <a href="/it/{{page.ref}}">🇮🇹 it</a>
+    {% endif %}
+    {% if page.lang == "de" %}
+    <a aria-current="page" class="active" href="/de/{{page.ref}}">🇩🇪 de</a>
+    {% else %}
+    <a href="/de/{{page.ref}}">🇩🇪 de</a>
+    {% endif %}
+  </div>
+</div>
