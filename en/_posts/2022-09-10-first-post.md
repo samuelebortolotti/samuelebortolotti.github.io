@@ -3,7 +3,7 @@ layout: post
 title: Hello world
 date: 2022-09-10
 lang: en
-permalink: /en/2022-09-10-first-post.html
+permalink: 2022-09-10-first-post.html
 ref: 2022-09-10-first-post.html
 nav_bar: blog
 reading_time: 1 min. read

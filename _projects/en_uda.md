@@ -3,7 +3,7 @@ layout: post
 title: Unsupervised Domain Adaptation
 lang: en
 date: 2022-07-04
-permalink: /en/uda.html
+permalink: uda.html
 order: 2
 ref: uda.html
 repository: https://github.com/samuelebortolotti/uda
