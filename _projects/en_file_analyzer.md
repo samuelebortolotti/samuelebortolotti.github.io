@@ -18,6 +18,7 @@ author:
 nav_bar: projects
 type: project
 ---
+# File Analyzer
 
 ## General Information
 Group project for the Operative System (OS) course of the Bachelor's Degree in Computer Science at University of Trento.
@@ -49,9 +50,6 @@ The program structure is depicted in here:
 A glance of the program execution is shown here: 
 
 <img src="https://github.com/fedeizzo/file-analyzer/blob/master/GIFME.gif?raw=true" alt="System at Work" width="100%">
-
-## Final Mark
-30 Cum Laude (out of 30)
 
 ## Contributors
 - Samuele Bortolotti
