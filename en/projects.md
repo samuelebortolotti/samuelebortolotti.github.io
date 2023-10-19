@@ -2,15 +2,15 @@
 layout: default
 title: Projects
 lang: en
-permalink: /projects.html
+permalink: /projects
 redirect_from: /en/projects.html
 ref: projects
 nav_bar: projects
 ---
 # Projects
-This section aims to contain the description of the most relevant projects I have collaborated on and the ones I am currently working on.
+This section aims to contain the description of the most significant projects I have been a part of, as well as the ongoing projects that currently occupy my time and expertise.
 
-{% assign projects=site.projects | where:"lang", page.lang %}
+{% assign projects=site.projects | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for project in projects %}
 <div class="post">
   <span style="font-weight: bold">{{ project.date | date: "%b %-d, %Y" }}</span>

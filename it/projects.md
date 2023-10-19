@@ -8,7 +8,7 @@ nav_bar: projects
 # Progetti
 Questa sezione contiene la descrizione dei progetti più rilevanti a cui ho collaborato o a cui sto collaborando.
 
-{% assign projects=site.projects | where:"lang", page.lang %}
+{% assign projects=site.projects | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for project in projects %}
 <div class="post">
   <span style="font-weight: bold">{{ project.date | date: "%b %-d, %Y" }}</span>

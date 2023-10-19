@@ -8,14 +8,14 @@ ref: blog
 nav_bar: blog
 ---
 # Blog
-Hello, this section aims to contain some thoughts I would like to share. 
+Greetings! In this section, I'll be sharing some of my thoughts and insights.
 
 If I find some time to share them of course :).
 
-{% assign posts=site.posts | where:"lang", page.lang %}
+{% assign posts=site.posts | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for post in posts %}
 <div class="post">
-  <span style="font-weight: bold">{{ post.date | date: "%b %-d, %Y" }} - {{ post.reading_time }}</span>
+  <span style="font-weight: bold">Created: {{ post.date | date: "%b %-d, %Y" }} - Last Update: {{ post.modification_date | date: "%b %-d, %Y" }} - {{ post.reading_time}}</span>
   <h2 style="margin:0px">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </h2>

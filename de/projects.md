@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Projects
-lang: de 
+lang: de
 ref: projects
 nav_bar: projects
 ---
 # Projekte
 Dieser Abschnitt soll die Beschreibung der bemerkenswerten Projekte enthalten, an denen ich mitgearbeitet habe oder an denen ich derzeit arbeite.
 
-{% assign projects=site.projects | where:"lang", page.lang %}
+{% assign projects=site.projects | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for project in projects %}
 <div class="post">
   <span style="font-weight: bold">{{ project.date | date: "%b %-d, %Y" }}</span>

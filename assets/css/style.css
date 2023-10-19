@@ -144,6 +144,13 @@ blockquote {
   border-left: .25em solid #57606a;
 }
 
+code {
+  display: block;
+  word-wrap: break-word;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 @media screen and (max-width: 767px) {
   .main {
     flex-direction: column;

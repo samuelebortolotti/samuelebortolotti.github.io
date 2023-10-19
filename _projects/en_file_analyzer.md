@@ -4,9 +4,8 @@ lang: en
 title: File Analyzer
 description: An efficient multithread and multiprocess program in C to analyze recursively the files contained inside a folder and produce statistics about them.
 date: 2020-04-28
-permalink: file-analyzer.html
-order: 2
-ref: file-analyzer.html
+permalink: projects/file-analyzer.html
+ref: projects/file-analyzer.html
 repository: https://github.com/fedeizzo/file-analyzer
 url: https://github.com/fedeizzo/file-analyzer
 report: https://github.com/fedeizzo/file-analyzer/blob/master/README.md 
@@ -22,11 +21,6 @@ type: project
 
 ## General Information
 Group project for the Operative System (OS) course of the Bachelor's Degree in Computer Science at University of Trento.
-
-- **Repository**: [file-analyzer](https://github.com/fedeizzo/file-analyzer)
-- **Language**: *C*
-- **Start date**: 2020/04/28
-- **End date**: 2020/06/07
 
 ## Description & Objectives
 The main focus of this project is to count the occurrences of ASCII characters inside one or more files.

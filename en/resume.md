@@ -9,15 +9,25 @@ nav_bar: resume
 ---
 # Short Résumé
 
-Born in 1999, 29 June, I have earned my Bachelor's Degree at University of Trento in Computer Science in 2021. 
+Born in 1999, 29 June, I have earned my Bachelor's and Master's degree at University of Trento in Computer Science in 2021 and 2023, respectively. 
 
-I am currently attending University of Trento for the Master's Degree in Computer Science. I plan to have earned my Master Degree by fall 2023.
+I am currently pursuing my Ph.D. studies in Computer Science within the TANGO Horizon EUROPE RIA project at the University of Trento.
 
 ## Education
 
 #### [University of Trento [Trento, Italy]](https://www.unitn.it/en)
 
-_Master of Computer Science, Sept 2021 - Current_
+_Ph.D. in Computer Science, Nov 2023 - Current_
+
+<hr>
+
+#### [University of Trento [Trento, Italy]](https://www.unitn.it/en)
+
+_Master of Computer Science, Sept 2021 - Oct 2023_
+
+Thesis: _"From Models to Arguments and Back"_ supervised by Prof. [Andrea Passerini](https://disi.unitn.it/~passerini/) and Prof. [Stefano Teso](https://disi.unitn.it/~teso/).
+
+Grade: 110/110 cum laude
 
 <hr>
 
@@ -29,7 +39,17 @@ Thesis: _"Analysis of user warnings in Wikipedia"_ supervised by Prof. [Alberto 
 
 Grade: 110/110 cum laude
 
-## Experiences
+## Work Experiences
+
+#### [Structured Machine Learning Group [Trento, Italy]](https://sml.disi.unitn.it/)
+
+_Research Intern, Nov 2022 - Jun 2023_
+
+Work on a novel interactive multi‑shot debugging protocol that enables the exchange of arguments between a machine and a user to correct the model’s beliefs. Additionally, integrate state‑of‑the‑art eXplainable Artificial Intelligence techniques, such as the ’Right for the Right Reasons’ loss, into structured prediction output Neuro‑Symbolic models like Coherent Hierarchical Multi‑label Classification Networks and Semantic Probabilistic Layers. This integration successfully recovered the performance of confounded models in the field of hierarchical classification.
+
+Technologies: Python
+
+<hr>
 
 #### [Eurecat ‑ Centre Tecnològic de Catalunya [Barcelona, Spain]](https://eurecat.org/)
 
@@ -61,15 +81,29 @@ Technologies: SQL, Java, JavaScript.
 
 ## Awards
 
-#### Premio allo studio Marco Modena (Cassa Rurale Alto Garda ‑ Rovereto, Trento, Italy)
+#### Study Award Marco Modena (Cassa Rurale Alto Garda ‑ Rovereto, Trento, Italy)
 
 _Merit Grant, 2022_
+
+#### Ph.D three year scholarship
+
+_Ph.D. scholarship, 2023_
 
 ## Projects
 
 > A comprehensive list of the most relevant projects I have contributed to are listed [here](/projects), while minor projects can be found on my GitHub page.
 
-#### Pareto &epsilon;-greedy Reinforcement Learning [[Repository]](https://github.com/samuelebortolotti/pareto-epsilon-greedy-RL) [[Report]](https://github.com/samuelebortolotti/pareto-epsilon-greedy-RL/blob/master/report/main.pdf)
+#### Particle Swarm Optimization‑OpenMPI [[Repository]](https://github.com/samuelebortolotti/ParticleSwarmOptimization-OpenMPI) [[Report]](https://fedeizzo.github.io/ParticleSwarmOptimization-OpenMPI/report.pdf)
+
+_University project, Oct 2022 - Dec 2022_
+
+The aim of the project was to develop an efficient hybrid OpenMP‑MPI algorithm to solve complex continuous optimization problems.
+
+Technologies: C, Python
+
+<hr>
+
+#### DarkrAI: a Pareto epsilon‑greedy policy [[Repository]](https://github.com/samuelebortolotti/pareto-epsilon-greedy-RL) [[Report]](https://github.com/samuelebortolotti/pareto-epsilon-greedy-RL/blob/master/report/main.pdf)
 
 _University project, Apr 2022 - Jul 2022_
 
@@ -89,7 +123,7 @@ Technologies: Java
 
 <hr>
 
-#### Unsupervised Domain Adaptation [[Repository]](https://github.com/samuelebortolotti/uda) [[Notebook]](https://github.com/samuelebortolotti/uda/blob/master/uda/notebook/notebook.ipynb)
+#### UDA (Unsupervised Domain Adaptation) [[Repository]](https://github.com/samuelebortolotti/uda) [[Notebook]](https://github.com/samuelebortolotti/uda/blob/master/uda/notebook/notebook.ipynb)
 
 _University project, May 2022 - Jun 2022_
 
@@ -139,8 +173,51 @@ Technologies: C
 
 ## Programming Skills
 
-| Language                                 | Knowledge Level     |
-|:-----------------------------------------|:--------------------|
-| Python, Java                             | proficient          |
-| Ruby, R, C, C++, TypeScript, JavaScript  | intermediate        |
-| C#, Matlab                               | academic            |
+<table>
+  <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 50%;">
+  </colgroup>
+  <tr>
+    <th style="text-align: left;">Language</th>
+    <th style="text-align: left;">Knowledge Level</th>
+  </tr>
+  <tr>
+    <td>Python, Java</td>
+    <td>proficient</td>
+  </tr>
+  <tr>
+    <td>Ruby, R, C, C++, TypeScript, JavaScript</td>
+    <td>intermediate</td>
+  </tr>
+  <tr>
+    <td>C#, Matlab</td>
+    <td>academic</td>
+  </tr>
+</table>
+
+
+## Language Proficiency
+
+<table>
+  <colgroup>
+    <col style="width: 50%;">
+    <col style="width: 50%;">
+  </colgroup>
+  <tr>
+    <th style="text-align: left;">Language</th>
+    <th style="text-align: left;">Knowledge Level</th>
+  </tr>
+  <tr>
+    <td>Italian</td>
+    <td>native</td>
+  </tr>
+  <tr>
+    <td>English</td>
+    <td>proficient</td>
+  </tr>
+  <tr>
+    <td>German</td>
+    <td>basic</td>
+  </tr>
+</table>

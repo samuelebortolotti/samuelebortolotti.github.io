@@ -2,9 +2,7 @@
 
 My personal web site made with [Jekyll](https://jekyllrb.com/) and hosted with [GitHub Pages](https://pages.github.com/).
 
-The website is completely static and does not include JavaScript.
-
-Always remember to be careful using JavaScript, [see](https://www.gnu.org/philosophy/javascript-trap.en.html) an interesting reading from Richard Stallman.
+The website is completely static and does not include JavaScript except for the pages which need to display formulas. In that case, [MathJax](https://www.mathjax.org/) is included.
 
 ## Github Pages deployment
 

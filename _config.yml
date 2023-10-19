@@ -8,6 +8,12 @@ url: "https://samuelebortolotti.github.io" # the base hostname & protocol for yo
 github_username: samuelebortolotti
 repository: samuelebortolotti/samuelebortolotti.github.io 
 
+# Use MathJax
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
 # Build settings
 encoding: UTF-8
 plugins:
@@ -18,16 +24,21 @@ plugins:
 # Default language
 include: [en]
 
-# Projects collection
+# Projects and Publications collection
 collections:
   projects:
     output: true
     permalink: /:lang/projects/:title
+  publications:
+    output: true
+    permalink: /publications/:title
+  
 
 feed:
   posts_limit: 20
   collections:
     - projects
+    - publications
 
 # Exclude from processing.
 # The following items will not be processed, by default.

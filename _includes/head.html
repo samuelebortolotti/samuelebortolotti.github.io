@@ -11,4 +11,8 @@
   <link rel="icon" type="image/x-icon" href="{{ "assets/images/favicon.ico" | relative_url }}"/>
 
   {%- seo -%}
+
+  {% if page.mathjax %}
+    {% include mathjax.html %}
+  {% endif %}
 </head>

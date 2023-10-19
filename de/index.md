@@ -6,9 +6,9 @@ ref: index
 nav_bar: index
 ---
 # Wilkommen
-Ich bin Samuele Bortolotti und besuche derzeit die Universität von Trient für einen Master-Abschluss in Informatik, wo Ich 2021 einen Bachelor-Abschluss in Informatik erworben habe.
+Ich bin Samuele Bortolotti und verfolge derzeit meine Doktorandenstudien im Fach Informatik im Rahmen des TANGO Horizon EUROPE RIA Projekts an der [Structured Machine Learning Group](https://sml.disi.unitn.it/) der Universität Trient unter der Betreuung von [Andrea Passerini](https://disi.unitn.it/~passerini/index.html) und [Stefano Teso](https://disi.unitn.it/~teso/). Meine Hauptforschungsinteressen liegen im Bereich der erklärten künstlichen Intelligenz, interaktiven Maschinenlernen und neuro-symbolischen Maschinenlernen mit dem Ziel, Deep Learning-Modelle verständlicher zu machen.
 
-Mein Universitätsstudium hat sich hauptsächlich auf Programmierung, Machine Learning, Computer Vision und Data Science konzentriert.
+Mein Studium an der Universität konzentrierte sich hauptsächlich auf Programmierung, maschinelles Lernen, Computer Vision und Datenwissenschaft. Ich habe einen tiefen Respekt für verschiedene Aspekte der Programmierung entwickelt, die nahezu alles von verteiltem Software-Engineering, Webarchitekturen, Datenbankmanagement, paralleler Programmierung und mehr umfassen. In den letzten zwei Jahren hat mich meine Neugier dazu geführt, verschiedene Themen wie Algorithmusoptimierung, statistische Methoden, Quantenmaschinenlernen und vor allem erklärte künstliche Intelligenz, interaktives Maschinenlernen und neuro-symbolische künstliche Intelligenz zu erforschen. Ich habe 2021 meinen Bachelor- und 2023 meinen Master-Abschluss (mit Auszeichnung) in Informatik an der Universität Trient erworben.
 
 Auf dieser Webseite finden Sie die Kontaktdaten meiner wichtigsten sozialen Netzwerke, meinen Lebenslauf und die Projekte, die Ich schon durchgeführt habe und an denen Ich derzeit arbeite.
 
