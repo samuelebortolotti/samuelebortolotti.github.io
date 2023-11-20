@@ -11,7 +11,7 @@ nav_bar: resume
 
 Born in 1999, 29 June, I have earned my Bachelor's and Master's degree at University of Trento in Computer Science in 2021 and 2023, respectively. 
 
-I am currently pursuing my Ph.D. studies in Computer Science within the TANGO Horizon EUROPE RIA project at the University of Trento.
+I am currently pursuing my Ph.D. studies in Computer Science at the University of Trento.
 
 ## Education
 

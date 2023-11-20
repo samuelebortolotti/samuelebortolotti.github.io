@@ -9,13 +9,13 @@ nav_bar: resume
 
 Nato il 29 giugno 1999, ho conseguito la laurea triennale e magistrale in Informatica presso l'Università degli Studi di Trento nel 2021 e nel 2023, rispettivamente.
 
-Attualmente sto frequentando l'Università di Trento per la conseguire il dottorato in Informatica all'interno del progetto TANGO Horizon EUROPE RIA.
+Attualmente sto frequentando l'Università di Trento per la conseguire il dottorato in Informatica.
 
 ## Educazione
 
 #### [University of Trento [Trento, Italia]](https://www.unitn.it/en)
 
-_Ph.D. in Informatica, Novembre 2023 - Corrente_
+_Dottorato in Informatica, Novembre 2023 - Corrente_
 
 <hr>
 

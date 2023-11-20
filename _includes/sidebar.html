@@ -12,11 +12,11 @@
   </a>
   <!-- Short description -->
   {% if page.lang == "it" %}
-  <p>Dottorando presso l'Università di Trento in informatica nell'ambito del progetto TANGO Horizon EUROPE RIA. Interessato in neuro-symbolic machine learning, explainable AI e interactive machine learning.</p>
+  <p>Dottorando presso l'Università di Trento in informatica. Interessato a neuro-symbolic machine learning, explainable AI e interactive machine learning.</p>
   {% elsif page.lang == "de" %}
-  <p>Doktorand an der Universität Trient in Informatik im Rahmen des TANGO Horizon EUROPE RIA Projekts. Interessiert sich für neuro-symbolisches maschinelles Lernen, erklärbare KI und interaktives maschinelles Lernen.</p>
+  <p>Doktorand an der Universität Trient in Informatik. Interessiert sich für neuro-symbolisches maschinelles Lernen, erklärbare KI und interaktives maschinelles Lernen.</p>
   {% else %}
-  <p>Ph.D. student at the University of Trento in Computer Science within the TANGO Horizon EUROPE RIA project. Interested in neuro-symbolic machine learning, explainable AI and interactive machine learning.</p>
+  <p>Ph.D. student at the University of Trento in Computer Science. Interested in neuro-symbolic machine learning, explainable AI and interactive machine learning.</p>
   {% endif %}
   <!-- Links on the Sidebar -->
   <div class="links">
@@ -24,7 +24,7 @@
     <a target="_blank" href="https://github.com/samuelebortolotti" title="GitHub link">GitHub</a>
     <a target="_blank" href="https://www.linkedin.com/in/samuele-bortolotti " title="LinkedIn link">LinkedIn</a>
     <a target="_blank" href="/feed.xml" type="application/xml" title="RSS Feed">RSS</a>
-    <a target="_blank" href="mailto:samuele.bortolotti@studenti.unitn.it" title="Email">@</a>
+    <a target="_blank" href="mailto:samuele.bortolotti@unitn.it" title="Email">@</a>
   </div>
   <!-- Effective Navbar -->
   <ul class="navlinks">
@@ -39,6 +39,7 @@
       {% endif %}
       {% endif %}
     </li>
+    <!--
     <li>
       {% if page.nav_bar == "publications" %}
       <a aria-current="page" class="active" href="/{{page.lang}}/publications">Publications</a>
@@ -72,6 +73,7 @@
       {% endif %}
       {% endif %}
     </li>
+    -->
     <li>
       {% if page.nav_bar == "resume" %}
       <a aria-current="page" class="active" href="/{{page.lang}}/resume">Short R&eacute;sum&eacute;</a>

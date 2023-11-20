@@ -6,15 +6,15 @@ ref: resume
 nav_bar: resume
 ---
 # Kurzer Lebenslauf
-Geboren am 29. Juni 1999, habe ich meinen Bachelor- und Master-Abschluss in Informatik an der Universität Trient im Jahr 2021 bzw. 2023 erworben.
+Geboren am 29. Juni 1999, habe ich meinen Bachelor -und Master- Abschluss in Informatik an der Universität Trient im Jahr 2021 beziehungsweise 2023 erworben.
 
-Ich verfolge derzeit meine Doktorarbeit. Studium der Informatik im Rahmen des TANGO Horizon EUROPE RIA Projekts an der Universität Trient.
+Ich verfolge derzeit meine Doktorarbeit an der Universität Trient.
 
 ## Bildung
 
 #### [Universität Trient [Trient, Italien]](https://www.unitn.it/en)
 
-_Ph.D. in Informatik, November 2023 – Aktuell_
+_Doktor in Informatik, November 2023 – Aktuell_
 
 <hr>
 
