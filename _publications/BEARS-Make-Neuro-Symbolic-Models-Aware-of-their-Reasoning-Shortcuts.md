@@ -16,6 +16,8 @@ authors:
   - Andrea Passerini
   - Stefano Teso
 conference: Submitted
+lang: en
+ref: publications
 conference_url: 
 paper: https://arxiv.org/abs/2402.12240
 nav_bar: publications
