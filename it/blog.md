@@ -8,8 +8,6 @@ nav_bar: blog
 # Blog
 Ciao! Questa sezione sarà adibita alla condivisione di idee, pensieri ed esperienze.
 
-Se trovo un po' di tempo per farlo, ovviamente :).
-
 {% assign posts=site.posts | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for post in posts %}
 <div class="post">

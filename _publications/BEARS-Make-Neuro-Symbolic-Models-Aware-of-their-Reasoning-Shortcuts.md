@@ -15,11 +15,11 @@ authors:
   - Antonio Vergari
   - Andrea Passerini
   - Stefano Teso
-conference: Submitted
+conference: ArXiv Pre-print
 lang: en
 ref: publications
-conference_url: 
-paper: https://arxiv.org/abs/2402.12240
+conference_url: https://arxiv.org/abs/2402.12240
+paper: https://arxiv.org/pdf/2402.12240.pdf
 nav_bar: publications
 ---
 

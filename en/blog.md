@@ -10,8 +10,6 @@ nav_bar: blog
 # Blog
 Greetings! In this section, I'll be sharing some of my thoughts and insights.
 
-If I find some time to share them of course :).
-
 {% assign posts=site.posts | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for post in posts %}
 <div class="post">

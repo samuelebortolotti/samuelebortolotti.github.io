@@ -53,7 +53,7 @@ a {
 
 .name {
   font-weight: 700;
-  font-size: 90%;
+  font-size: 120%;
   margin-top: 0.5em;
   margin-right: 0em;
   margin-bottom: 0.5em;
@@ -64,7 +64,7 @@ a {
   margin-top: 1em;
   opacity: 0.7;
   display: flex;
-  font-size: 90%;
+  font-size: 100%;
   justify-content: space-between;
 }
 
@@ -74,6 +74,7 @@ a {
   padding-right: 0em;
   padding-bottom: 1em;
   padding-left: 0em;
+  font-size: 110%;
 }
 
 .navlinks li a {
@@ -149,6 +150,15 @@ code {
   word-wrap: break-word;
   max-width: 100%;
   overflow-x: auto;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  font-style: italic;
 }
 
 @media screen and (max-width: 767px) {

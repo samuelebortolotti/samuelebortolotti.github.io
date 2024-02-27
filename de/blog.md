@@ -8,8 +8,6 @@ nav_bar: blog
 # Blog
 Hallo Leute, in diesem Abschnitt der Website werde Ich meine Gedanken mit Ihnen teilen.
 
-Wenn ich etwas Zeit dafür finde, natürlich :).
-
 {% assign posts=site.posts | where:"lang", page.lang | sort: 'date' | reverse %}
 {% for post in posts%}
 <div class="post">
