@@ -12,14 +12,6 @@
         {{ content }}
       </main>
     </div>
-    <footer>
-      {% if page.lang == "it" %}
-      <p>Questo sito web <a href="https://www.gnu.org/philosophy/javascript-trap.it.html">non contiene JavaScript :)</a></p>
-      {% elsif page.lang == "de" %}
-      <p>Diese Website ist <a href="https://www.gnu.org/philosophy/javascript-trap.html">frei von JavaScript :)</a></p>
-      {% else %}
-      <p>This website is <a href="https://www.gnu.org/philosophy/javascript-trap.html">JavaScript free :)</a></p>
-      {% endif %}
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
