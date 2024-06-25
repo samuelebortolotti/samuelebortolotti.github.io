@@ -15,7 +15,7 @@ authors:
   - Antonio Vergari
   - Andrea Passerini
   - Stefano Teso
-conference: ArXiv Pre-print
+conference: UAI2024
 lang: en
 ref: publications
 conference_url: https://arxiv.org/abs/2402.12240
@@ -49,5 +49,14 @@ Neuro-Symbolic (NeSy) predictors that conform to symbolic knowledge - encoding, 
 <object data="/posters/2024_bears_ictdays.pdf" type="application/pdf" width="425px" height="600px" margin="auto">
     <embed src="/posters/2024_bears_ictdays.pdf" type="application/pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/posters/2024_bears_ictdays.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
+### [Nordic Probabilistic AI School 2024](https://nordic.probabilistic.ai/)
+
+<object data="/posters/2024_bears_probai.pdf" type="application/pdf" width="425px" height="600px" margin="auto">
+    <embed src="/posters/2024_bears_probai.pdf" type="application/pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/posters/2024_bears_probai.pdf">Download PDF</a>.</p>
     </embed>
 </object>
