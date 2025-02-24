@@ -49,7 +49,7 @@ Neuro-Symbolic (NeSy) predictors that conform to symbolic knowledge - encoding, 
 }
 ```
 
-## Posters
+<!-- ## Posters
 
 ### [ICT days 2024](https://www.ictdays.it/en/home-en/)
 
@@ -84,4 +84,4 @@ Neuro-Symbolic (NeSy) predictors that conform to symbolic knowledge - encoding, 
     <embed src="/slides/BEARS_slides_uai24.pdf" type="application/pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/slides/BEARS_slides_uai24.pdf">Download PDF</a>.</p>
     </embed>
-</object>
+</object> -->

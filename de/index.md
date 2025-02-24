@@ -7,14 +7,12 @@ nav_bar: index
 ---
 # Wilkommen
 
-{% comment %} 
-    Ich bin Samuele Bortolotti und verfolge derzeit meine Doktorandenstudien im Fach Informatik im Rahmen des TANGO Horizon EUROPE RIA Projekts an der [Structured Machine Learning Group](https://sml.disi.unitn.it/) der Universität Trient unter der Betreuung von [Andrea Passerini](https://disi.unitn.it/~passerini/index.html) und [Stefano Teso](https://disi.unitn.it/~teso/).
-{% endcomment %}
+Ich bin Samuele Bortolotti,  Doktorand in Informatik an der an der [Structured Machine Learning Group](https://sml.disi.unitn.it/) der Universität Trient unter der Leitung von [Stefano Teso](https://stefanoteso.github.io/) und [Andrea Passerini](https://disi.unitn.it/~passerini/index.html). Meine Forschung konzentriert sich auf erklärbare KI, Abkürzungslernen und neuro-symbolisches maschinelles Lernen.
 
-Ich bin Samuele Bortolotti und verfolge derzeit meine Doktorandenstudien im Fach Informatik an der [Structured Machine Learning Group](https://sml.disi.unitn.it/) der Universität Trient unter der Betreuung von [Andrea Passerini](https://disi.unitn.it/~passerini/index.html) und [Stefano Teso](https://disi.unitn.it/~teso/). Meine Hauptforschungsinteressen liegen im Bereich der erklärenden künstlichen Intelligenz, des interaktiven Maschinenlernens und des neuro-symbolischen Maschinenlernens.
+Mein akademischer Hintergrund konzentriert sich auf Programmierung und maschinelles Lernen. Ich habe ein starkes Interesse an nahezu allen Aspekten der Programmierung, einschließlich verteilter Systeme, Web-Architekturen, Datenbanken und paralleler Programmierung. In letzter Zeit beschäftige ich mich mit der Vertrauenswürdigkeit des maschinellen Lernens, insbesondere damit, wie Modelle aus Daten lernen, wo sie versagen können und wie neurosymbolische KI ihre Zuverlässigkeit verbessern kann.
 
-Mein Studium an der Universität konzentrierte sich hauptsächlich auf Programmierung, maschinelles Lernen, Computer Vision und Datenwissenschaft. Ich habe einen tiefen Respekt für verschiedene Aspekte der Programmierung entwickelt, die nahezu alles von verteiltem Software-Engineering, Webarchitekturen, Datenbankmanagement, paralleler Programmierung und mehr umfassen. In den letzten zwei Jahren hat mich meine Neugier dazu geführt, verschiedene Themen wie Algorithmusoptimierung, statistische Methoden, Quantenmaschinenlernen und vor allem erklärte künstliche Intelligenz, interaktives Maschinenlernen und neuro-symbolische künstliche Intelligenz zu erforschen. Ich habe 2021 meinen Bachelor- und 2023 meinen Master-Abschluss (mit Auszeichnung) in Informatik an der Universität Trient erworben.
+Ich habe meinen Bachelor- und Masterabschluss (cum laude) in Informatik an der Universität Trient im Jahr 2021 bzw. 2023 erworben.
 
-Auf dieser Webseite finden Sie die Kontaktdaten meiner wichtigsten sozialen Netzwerke, meinen Lebenslauf und die Projekte, die Ich schon durchgeführt habe und an denen Ich derzeit arbeite.
+Auf dieser Seite finden Sie meine Kontaktdaten, meinen Lebenslauf und eine Übersicht über meine jüngsten Veröffentlichungen.
 
-Wenn Sie möchten, können Sie mich kontaktieren, entweder auf Englisch, Italienisch oder Deutsch. Ich versuche derzeit, meine Deutschkenntnisse zu verbessern, deshalb bitte Ich Sie um Geduld mit eventuellen Missverständnissen.
+Sie können mich gerne auf Englisch, Italienisch oder Deutsch ansprechen. Da ich noch dabei bin, mein Deutsch zu verbessern, bitte ich um Geduld bei eventuellen Missverständnissen.

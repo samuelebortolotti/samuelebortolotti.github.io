@@ -9,14 +9,12 @@ nav_bar: index
 ---
 # Welcome
 
-{% comment %} 
-    I am Samuele Bortolotti, currently pursuing my Ph.D. studies in Computer Science within the TANGO Horizon EUROPE RIA project at the University of Trento's [Structured Machine Learning Group](https://sml.disi.unitn.it/), under the supervision of [Andrea Passerini](https://disi.unitn.it/~passerini/index.html) and [Stefano Teso](https://disi.unitn.it/~teso/).
-{% endcomment %}
+I am Samuele Bortolotti, a Ph.D. candidate in Computer Science at the University of Trento, [Structured Machine Learning Group](https://sml.disi.unitn.it/), under the supervision of [Stefano Teso](https://stefanoteso.github.io/) and [Andrea Passerini](https://disi.unitn.it/~passerini/index.html). My research focuses on explainable AI, shortcut learning, and neuro-symbolic machine learning.
 
-I am Samuele Bortolotti, currently pursuing my Ph.D. studies in Computer Science at the University of Trento's [Structured Machine Learning Group](https://sml.disi.unitn.it/), under the supervision of [Andrea Passerini](https://disi.unitn.it/~passerini/index.html) and [Stefano Teso](https://disi.unitn.it/~teso/). My main research interests involve explainable artificial intelligence, interactive machine learning, and neuro‑symbolic machine learning.
+My academic background revolves around programming and machine learning. I have a strong interest in nearly all aspects of programming, including distributed systems, web architectures, databases, and parallel programming. More recently, I have been exploring trustworthiness in machine learning—specifically, how models learn from data, where they may fail, and how neuro-symbolic AI can enhance their reliability.
 
-My university studies have mainly focused on programming, machine learning, computer vision and data science. I have developed a profound appreciation for various facets of programming, encompassing almost everything from distributed software programming, web architectures, database management, parallel programming and more. However, in the last two years, my curiosity has led me to explore different topics such as algorithm optimization, statistical methods, quantum machine learning, and most importantly, explainable artificial intelligence, interactive machine learning, and neuro-symbolic artificial intelligence. I earned a Bachelor's and a Master's degree (cum laude) from the University of Trento in in Computer Science in 2021 and 2023, respectively.
+I earned my Bachelor's and Master's degrees (cum laude) in Computer Science from the University of Trento in 2021 and 2023, respectively.
 
-On this web page you can find the contact details of my main social networks, my curriculum vitae, and delve into both my completed and ongoing projects.
+On this page, you will find my contact details, CV, and an overview of my recent publications.
 
-You can contact me by writing to me either in English, Italian or German. I am currently working on improving my German, so I kindly ask you to be patient with any misunderstanding.
+Feel free to reach out in English, Italian, or German. As I’m still improving my German, I appreciate your patience with any misunderstandings.

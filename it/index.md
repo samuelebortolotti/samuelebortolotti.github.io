@@ -7,14 +7,12 @@ nav_bar: index
 ---
 # Benvenuti
 
-{% comment %} 
-    Sono Samuele Bortolotti, attualmente sto frequentando il dottorato in Informatica nell'ambito del progetto TANGO Horizon EUROPE RIA presso lo [Structured Machine Learning Group](https://sml.disi.unitn.it/) dell'Università di Trento, sotto la supervisione del professor [Andrea Passerini](https:// disi.unitn.it/~passerini/index.html) e del professor [Stefano Teso](https://disi.unitn.it/~teso/).
-{% endcomment %}
+Sono Samuele Bortolotti, dottorando in Informatica presso lo [Structured Machine Learning Group](https://sml.disi.unitn.it/) dell'Università di Trento, sotto la supervisione del professor [Stefano Teso](https://stefanoteso.github.io/) e del professor [Andrea Passerini](https://disi.unitn.it/~passerini/index.html). I miei principali interessi di ricerca riguardano explainable artificial intelligence, shortcut learning, e neuro‑symbolic machine learning.
 
-Sono Samuele Bortolotti, attualmente sto frequentando il dottorato in Informatica presso lo [Structured Machine Learning Group](https://sml.disi.unitn.it/) dell'Università di Trento, sotto la supervisione del professor [Andrea Passerini](https://disi.unitn.it/~passerini/index.html) e del professor [Stefano Teso](https://disi.unitn.it/~teso/). I miei principali interessi di ricerca riguardano explainable artificial intelligence, interactive machine learning, e neuro‑symbolic machine learning.
+I miei studi si sono concentrati principalmente su programmazione e machine learning. Sono interessato a diversi aspetti della programmazione, come la programmazione di software distribuito, le architetture web, la gestione di database, la programmazione parallela e altro ancora. Più di recente, mi sono focalizzato sull'affidabilità dei modelli di machine learning, in particolare su come i modelli imparano dai dati, dove possono fallire e su come l'intelligenza artificiale neuro-simbolica può migliorare la loro affidabilità.
 
-I miei studi universitari si sono concentrati principalmente su programmazione, machine learning, computer vision e data science. Durante questo periodo, ho avuto la possibilità di sperimentare e apprezzare vari aspetti della programmazione, come programmazione di software distribuito, architetture web, gestione di database, programmazione parallela e altro ancora. Tuttavia, negli ultimi due anni, mi sono apassionato ad argomenti diversi come ottimizzazione degli algoritmi, metodi statistici, quantum machine learning e, soprattutto, explainable artificial intelligence, interactive machine learning, e neuro‑symbolic machine learning. Ho conseguito la laurea triennale e magistrale (con lode) presso l'Università degli Studi di Trento in Informatica nel 2021 e nel 2023, rispettivamente.
+Ho conseguito la laurea triennale e magistrale (con lode) in Informatica presso l'Università di Trento rispettivamente nel 2021 e nel 2023.
 
-Su questa pagina web puoi trovare i recapiti dei miei principali social network, il mio curriculum vitae, i progetti che ho svolto e quelli che sto svolgendo al momento.
+In questa pagina troverete i miei contatti, il mio CV e una panoramica delle mie pubblicazioni recenti.
 
-Se desideri, puoi metterti in contatto con me scrivendomi in inglese, italiano o in tedesco. Attualmente sto cercando di migliorare la mia conoscenza del tedesco, quindi ti chiedo cortesemente di essere paziente su eventuali incomprensioni.
+Sentitevi liberi di contattarmi in inglese, italiano o tedesco. Attualmente sto cercando di migliorare la mia conoscenza del tedesco, quindi vi chiedo scusa per eventuali incomprensioni.
