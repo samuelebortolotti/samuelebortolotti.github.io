@@ -40,7 +40,7 @@ install-ruby:
 
 install:
 	@$(ECHO) '$(GREEN)Installing requirements..$(NONE)'
-	@$(BUNDLE) install
+	@$(BUNDLE) install --path vendor/bundle
 	@$(ECHO) '$(GREEN)Done$(NONE)'
 
 serve:

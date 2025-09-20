@@ -14,10 +14,10 @@ authors:
   - Paolo Morettin
   - Andrea Passerini
   - Stefano Teso
-conference: ArXiv preprint
+conference: NeurIPS 2025
 lang: en
 ref: publications
-conference_url: 
+conference_url: https://neurips.cc/Conferences/2025
 paper: https://arxiv.org/abs/2502.11245
 nav_bar: publications
 ---
@@ -26,18 +26,16 @@ nav_bar: publications
 
 ## Abstract
 
-Concept-based Models are neural networks that learn a concept extractor to map inputs to high-level concepts and an inference layer to translate these into predictions. Ensuring these modules produce interpretable concepts and behave reliably in out-of-distribution is crucial, yet the conditions for achieving this remain unclear. We study this problem by establishing a novel connection between Concept-based Models and reasoning shortcuts (RSs), a common issue where models achieve high accuracy by learning low-quality concepts, even when the inference layer is fixed and provided upfront. Specifically, we first extend RSs to the more complex setting of Concept-based Models and then derive theoretical conditions for identifying both the concepts and the inference layer. Our empirical results highlight the impact of reasoning shortcuts and show that existing methods, even when combined with multiple natural mitigation strategies, often fail to meet these conditions in practice. 
+Concept-based Models are neural networks that learn a concept extractor to map inputs to high-level concepts and an inference layer to translate these into predictions. Ensuring these modules produce interpretable concepts and behave reliably in out-of-distribution is crucial, yet the conditions for achieving this remain unclear. We study this problem by establishing a novel connection between Concept-based Models and reasoning shortcuts (RSs), a common issue where models achieve high accuracy by learning low-quality concepts, even when the inference layer is fixed and provided upfront. Specifically, we extend RSs to the more complex setting of Concept-based Models and derive theoretical conditions for identifying both the concepts and the inference layer. Our empirical results highlight the impact of RSs and show that existing methods, even combined with multiple natural mitigation strategies, often fail to meet these conditions in practice.
 
 ## How to cite
 
 ```
-@misc{bortolotti2025shortcuts,
-  title={Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens}, 
-  author={Samuele Bortolotti and Emanuele Marconato and Paolo Morettin and Andrea Passerini and Stefano Teso},
+@inproceedings{bortolotti2025shortcuts,
+  title={Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens},
+  author = {Bortolotti, Samuele and Marconato, Emanuele and Morettin, Paolo and Passerini, Andrea and Teso, Stefano},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
-  eprint={2502.11245},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2502.11245}, 
+  url={https://openreview.net/forum?id=rdp1dLxyMI}
 }
 ```
