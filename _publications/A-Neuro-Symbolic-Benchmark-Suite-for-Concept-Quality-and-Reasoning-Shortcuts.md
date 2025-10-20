@@ -21,7 +21,7 @@ conference: NeurIPS 2024
 lang: en
 ref: publications
 conference_url: https://neurips.cc/Conferences/2024
-paper: https://openreview.net/forum?id=5VtI484yVy
+paper: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d1d11bf8299334d354949ba8738e8301-Abstract-Datasets_and_Benchmarks_Track.html
 nav_bar: publications
 ---
 

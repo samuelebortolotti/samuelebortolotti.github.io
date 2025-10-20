@@ -18,7 +18,7 @@ conference: NeurIPS 2025
 lang: en
 ref: publications
 conference_url: https://neurips.cc/Conferences/2025
-paper: https://arxiv.org/abs/2502.11245
+paper: https://openreview.net/forum?id=rdp1dLxyMI
 nav_bar: publications
 ---
 
