@@ -2,12 +2,12 @@
 layout: post
 permalink: /publications/Benchmarking-in-Neuro-Symbolic-AI.html
 title: Benchmarking in Neuro-Symbolic AI
-date: 2024-08-19
+date: 2024-09-01
 redirect_from:
   - /en/publications/Benchmarking-in-Neuro-Symbolic-AI.html
   - /it/publications/Benchmarking-in-Neuro-Symbolic-AI.html
   - /de/publications/Benchmarking-in-Neuro-Symbolic-AI.html
-ref: /publications/Benchmarking-in-Neuro-Symbolic-AI.html
+ref: publications
 authors:
   - Robin Manhaeve
   - Francesco Giannini
@@ -40,10 +40,11 @@ authors:
   - Marco Lippi
 conference: IJCLR 2024
 lang: en
-ref: publications
 conference_url: https://www.lamda.nju.edu.cn/ijclr24/
-paper: https://kuleuven.limo.libis.be/discovery/fulldisplay?docid=lirias4206603&context=SearchWebhook&vid=32KUL_KUL:Lirias&search_scope=lirias_profile&adaptor=SearchWebhook&tab=LIRIAS&query=creator,exact,Bortolotti,%20Samuele,AND&offset=0&lang=en
+paper: https://doi.org/10.1007/978-3-032-09087-4_17
 nav_bar: publications
+dblp_key: conf/ijclr/ManhaeveGAABBBRDDDFGGGG24
+dblp_url: https://dblp.org/rec/conf/ijclr/ManhaeveGAABBBRDDDFGGGG24.html
 ---
 
 # Benchmarking in Neuro-Symbolic AI
@@ -56,9 +57,27 @@ Neural-symbolic (NeSy) AI has gained a lot of popularity by enhancing learning m
 
 ```
 @inproceedings{manhaeve2024benchmarking,
-  title={Benchmarking in Neuro-Symbolic AI},
-  author={Manhaeve, Robin and Giannini, Francesco and Ali, Mehdi and Azzolini, Damiano and Bizzarri, Alice and Borghesi, Andrea and Bortolotti, Samuele and De Raedt, Luc and Dhami, Devendra and Diligenti, Michelangelo and others},
-  booktitle={Proceedings of The 4th International Joint Conference on Learning \& Reasoning},
-  year={2024}
+  author       = {Robin Manhaeve and Francesco Giannini and Mehdi Ali and
+                  Damiano Azzolini and Alice Bizzarri and Andrea Borghesi and
+                  Samuele Bortolotti and Luc De Raedt and Devendra Singh Dhami and
+                  Michelangelo Diligenti and Sebastijan Dumancic and Boi Faltings and
+                  Elisabetta Gentili and Alfonso Gerevini and Marco Gori and
+                  Tias Guns and Martin Homola and Kristian Kersting and
+                  Jens Lehmann and Michele Lombardi and Luca Salvatore Lorello and
+                  Emanuele Marconato and Stefano Melacci and Andrea Passerini and
+                  Debjit Paul and Fabrizio Riguzzi and Stefano Teso and
+                  Neil Yorke-Smith and Marco Lippi},
+  editor       = {Wang-Zhou Dai},
+  title        = {Benchmarking in Neuro-Symbolic {AI}},
+  booktitle    = {Learning and Reasoning - 4th International Joint Conference on
+                  Learning and Reasoning, {IJCLR} 2024, Nanjing, China,
+                  September 20-22, 2024, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {16059},
+  pages        = {238--249},
+  publisher    = {Springer},
+  year         = {2024},
+  url          = {https://doi.org/10.1007/978-3-032-09087-4_17},
+  doi          = {10.1007/978-3-032-09087-4_17}
 }
 ```

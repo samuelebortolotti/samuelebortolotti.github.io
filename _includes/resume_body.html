@@ -1,0 +1,80 @@
+{%- comment -%}
+Renders _data/cv.yml (generated from cv/samuele_bortolotti_cv.tex by
+scripts/cv_to_yaml.rb). Section labels: _data/resume_labels.yml. Entry text is
+translated via _data/cv_i18n.yml (keyed by the English string, English fallback).
+Proper nouns - institutions, lab / talk / paper titles, venues - stay English.
+{%- endcomment -%}
+{%- assign cv = site.data.cv -%}
+{%- assign L = site.data.resume_labels[page.lang] | default: site.data.resume_labels.en -%}
+{%- assign tr = site.data.cv_i18n[page.lang] -%}
+{% if cv.education %}
+## {{ L.education }}
+{% for e in cv.education %}
+### {{ e.title }}
+_{{ tr[e.position] | default: e.position }}_{% if e.location %} &middot; {{ e.location }}{% endif %}{% if e.date %} &middot; {{ e.date }}{% endif %}
+{% for it in e.items %}
+- {{ tr[it] | default: it }}
+{%- endfor %}
+{% endfor %}{% endif %}
+{% if cv.experience %}
+## {{ L.experience }}
+{% for e in cv.experience %}
+### {{ e.title }}
+_{{ tr[e.position] | default: e.position }}_{% if e.location %} &middot; {{ e.location }}{% endif %}{% if e.date %} &middot; {{ e.date }}{% endif %}
+{% for it in e.items %}
+- {{ tr[it] | default: it }}
+{%- endfor %}
+{% endfor %}{% endif %}
+{% if cv.teaching %}
+## {{ L.teaching }}
+{% for e in cv.teaching %}
+### {{ e.title }}
+_{{ tr[e.position] | default: e.position }}_{% if e.location %} &middot; {{ e.location }}{% endif %}{% if e.date %} &middot; {{ e.date }}{% endif %}
+{% for it in e.items %}
+- {{ tr[it] | default: it }}
+{%- endfor %}
+{% endfor %}{% endif %}
+{% if cv.talks %}
+## {{ L.talks }}
+{% for e in cv.talks %}
+### {{ e.title }}
+_{{ tr[e.position] | default: e.position }}_{% if e.location %} &middot; {{ e.location }}{% endif %}{% if e.date %} &middot; {{ e.date }}{% endif %}
+{% endfor %}{% endif %}
+{% if cv.collaborations %}
+## {{ L.collaborations }}
+{% for c in cv.collaborations %}
+### {{ tr[c.area] | default: c.area }}
+{% for p in c.people %}
+- {{ p }}
+{%- endfor %}
+{% endfor %}{% endif %}
+{% if cv.training %}
+## {{ L.training }}
+{% for e in cv.training %}
+### {{ e.title }}
+_{{ tr[e.position] | default: e.position }}_{% if e.location %} &middot; {{ e.location }}{% endif %}{% if e.date %} &middot; {{ e.date }}{% endif %}
+{% for it in e.items %}
+- {{ tr[it] | default: it }}
+{%- endfor %}
+{% endfor %}{% endif %}
+{% if cv.reviewing %}
+## {{ L.reviewing }}
+{% for r in cv.reviewing %}
+- {{ r }}
+{%- endfor %}
+{% endif %}
+{% if cv.skills %}
+## {{ L.skills }}
+{% for s in cv.skills %}
+- **{{ tr[s.category] | default: s.category }}:** {{ tr[s.skills] | default: s.skills }}
+{%- endfor %}
+{% endif %}
+{% if cv.honors %}
+## {{ L.honors }}
+{% for h in cv.honors %}
+- **{{ tr[h.award] | default: h.award }}** &middot; {{ tr[h.event] | default: h.event }}{% if h.location %} &middot; {{ h.location }}{% endif %}{% if h.date %} ({{ h.date }}){% endif %}
+{%- endfor %}
+{% endif %}
+## {{ L.publications }}
+
+{{ L.publications_note }}

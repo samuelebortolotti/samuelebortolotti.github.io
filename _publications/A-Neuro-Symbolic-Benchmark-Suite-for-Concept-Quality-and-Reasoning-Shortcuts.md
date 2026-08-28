@@ -2,12 +2,12 @@
 layout: post
 permalink: /publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
 title: A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts
-date: 2024-06-14
+date: 2024-12-01
 redirect_from:
   - /en/publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
   - /it/publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
   - /de/publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
-ref: /publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
+ref: publications
 authors:
   - Samuele Bortolotti
   - Emanuele Marconato
@@ -19,10 +19,11 @@ authors:
   - Andrea Passerini
 conference: NeurIPS 2024
 lang: en
-ref: publications
 conference_url: https://neurips.cc/Conferences/2024
 paper: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d1d11bf8299334d354949ba8738e8301-Abstract-Datasets_and_Benchmarks_Track.html
 nav_bar: publications
+dblp_key: conf/nips/BortolottiMCMKV24
+dblp_url: https://dblp.org/rec/conf/nips/BortolottiMCMKV24.html
 ---
 
 # A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts
@@ -46,23 +47,3 @@ The advent of powerful neural classifiers has increased interest in problems tha
   year = {2024}
 }
 ```
-
-<!-- ## Posters
-
-### [NeurIPS 2024](https://neurips.cc/Conferences/2024)
-
-<object data="/posters/2024_benchmark_nips.pdf" type="application/pdf" width="100%" height="100%" margin="auto">
-    <embed src="/posters/2024_benchmark_nips.pdf" type="application/pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/posters/2024_benchmark_nips.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-## Slides
-
-### [NeurIPS 2024](https://neurips.cc/virtual/2024/poster/97846)
-
-<object data="/slides/Benchmark_slides_nips24.pdf" type="application/pdf" width="100%" height="100%" margin="auto">
-    <embed src="/slides/Benchmark_slides_nips24.pdf" type="application/pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/slides/Benchmark_slides_nips24.pdf">Download PDF</a>.</p>
-    </embed>
-</object> -->

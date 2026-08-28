@@ -1,8 +1,32 @@
+# Jekyll build output and caches
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+
+# Bundler
 vendor
-.ruby-version
-to_add
 .bundle
+.ruby-version
+
+# Editor / tooling
+.ruby-lsp/
+.DS_Store
+
+# LaTeX build artefacts. The CV *source* under cv/ is tracked so the monthly
+# workflow can rebuild it; the compiled PDF lives in files/.
+cv/*.aux
+cv/*.bbl
+cv/*.bcf
+cv/*.blg
+cv/*.fdb_latexmk
+cv/*.fls
+cv/*.log
+cv/*.out
+cv/*.run.xml
+cv/*.xdv
+cv/*.pdf
+cv/resume/*.bbl
+
+# Scratch
+to_add

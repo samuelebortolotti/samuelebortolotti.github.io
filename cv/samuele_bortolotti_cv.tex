@@ -1,0 +1,566 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+
+\documentclass[11pt, a4paper]{awesome-cv}
+\usepackage[none]{hyphenat} % Prevent latex from splitting the words
+
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{%
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1)
+                --++ (-0, 1.2)
+                --++ (0.6, 0)
+                --++ (0, -0.6)
+                --++ (0.6, 0)
+                --++ (0, -1);
+            \path[draw,
+                line width = 0.5,
+                rounded corners=0.5]
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5)
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1)
+            -- (1, 1) -- (1, 0.6);
+        }}
+
+% header first and last name
+\renewcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
+\renewcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
+
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+\definecolor{awesome}{HTML}{0072B2}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Samuele}{Bortolotti}
+\position{Ph.D. Candidate in Computer Science}
+%\address{Via del Dossél 11, Vallelaghi 38096, Trento, Italy}
+
+%\mobile{(+39) 3482155123}
+\email{samuele.bortolotti@unitn.it}
+\homepage{samuelebortolotti.github.io}
+\github{samuelebortolotti}
+\linkedin{samuele-bortolotti}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+\twitter{@samubortolotti}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+\googlescholar{w7Cv80sAAAAJ}{}
+% \extrainfo{extra informations}
+% bold varepsilon
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+\addbibresource{resume/references.bib}
+
+\makeatletter
+\AtDataInput{%
+  \ifltxcounter{datacount@\the\c@refsection}
+    {}
+    {\newcounter{datacount@\the\c@refsection}}%
+  \stepcounter{datacount@\the\c@refsection}}
+
+\newcommand*{\refsectionbibcount}{\arabic{datacount@\the\c@refsection}}
+\makeatother
+
+% for formatting the heading using our style
+\defbibheading{subbibnumbered}[\refname]{\cvsubsection{#1}}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Samuele Bortolotti~~~\textbullet~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+%\input{resume/summary.tex}
+%------ BEGIN resume/education.tex ------
+\cvsection{Education}
+
+\begin{cventries}
+  \cventry
+    {Ph.D. in Computer Science} % Degree
+    {\href{https://www.unitn.it/en}{University of Trento}} % Institution
+    {Trento, IT} % Location
+    {Nov. 2023 - Current} % Date(s)
+    {
+      \begin{cvitems}
+    %    \item {Working on state-of-the-art Neuro-Symbolic techniques}
+        \item {\textbf{Supervisors}: \href{https://stefanoteso.github.io/}{Stefano Teso} and \href{https://disi.unitn.it/~passerini/index.html}{Andrea Passerini}}
+        \item {\textbf{PhD Scholarship:} Trustworthy Neuro-Symbolic Machine Learning}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Master's degree in Computer Science} % Degree
+    {\href{https://www.unitn.it/en}{University of Trento}} % Institution
+    {Trento, IT} % Location
+    {Sept. 2021 - Oct. 2023} % Date(s)
+    {
+      \begin{cvitems}
+        \item {\textbf{GPA}: 4.0/4.0}
+        \item {\textbf{Grade}: 110/110 cum laude}
+        \item {\textbf{Final dissertation}: \em{"From Models to Arguments and Back"}, supervised by professors \href{https://disi.unitn.it/~passerini/index.html}{Andrea Passerini} and \href{https://stefanoteso.github.io/}{Stefano Teso}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Bachelor's degree in Computer Science} % Degree
+    {\href{https://www.unitn.it/en}{University of Trento}} % Institution
+    {Trento, IT} % Location
+    {Sept. 2018 - Jul. 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) bullet points
+        \item {\textbf{GPA}: 4.0/4.0}
+        \item {\textbf{Grade}: 110/110 cum laude}
+        \item {\textbf{Final dissertation}: \em{"Analysis of user warnings in Wikipedia"}, supervised by professor \href{https://cricca.disi.unitn.it/montresor/}{Alberto Montresor}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+\end{cventries}
+%------ END resume/education.tex ------
+%------ BEGIN resume/experience.tex ------
+\cvsection{Work Experience}
+
+\begin{cventries}
+  \cventry
+    {Research Intern} % Job title
+    {\href{https://sml.disi.unitn.it/}{Structured Machine Learning Group}} % Organization
+    {Trento, IT} % Location
+    {Nov. 2022 - Jun. 2023} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Work on a novel interactive multi-shot debugging protocol that allows the exchange of arguments between a machine and a user in order to correct the model's beliefs.}
+        \item {Integrate state-of-the-art eXplainable Artificial Intelligence techniques, such as the \href{https://arxiv.org/pdf/1703.03717.pdf}{'Right for the Right Reasons'} loss, into structured prediction output Neuro-Symbolic models like \href{https://proceedings.neurips.cc//paper/2020/file/6dd4e10e3296fa63738371ec0d5df818-Paper.pdf}{Coherent Hierarchical Multi-label Classification Networks} and \href{https://proceedings.neurips.cc/paper_files/paper/2022/file/c182ec594f38926b7fcb827635b9a8f4-Paper-Conference.pdf}{Semantic Probabilistic Layers}.}
+        \item {Successfully recover the performance of confounded models in the field of hierarchical classification.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+
+  \cventry
+    {Junior Data Scientist} % Job title
+    {\href{https://eurecat.org/en/}{Eurecat - Centre Tecnològic de Catalunya}} % Organization
+    {Barcelona, ES} % Location
+    {May. 2021 - Jun. 2021} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item{Extract Wikipedia data from the Wikipedia dumps - \entrydatestyle{937GB bz2 and 157GB 7z compressed}.}
+        \item {Design an effective way to extract and analyze the languages spoken by the Wikipedia users - \entrydatestyle{109'452 database entries}.}
+        \item{Develop a strategy to retrieve Wikipedia users' \emph{User Warnings} and \emph{Wikibreaks}, studying how they affect the users' activity level - respectively \entrydatestyle{25'843 and 2'777'181 database entries}.}
+        \item {Build an automated pipeline to download the dumps, extract the data, and compute the statistics using Docker.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Junior Software Developer} % Job title
+    {\href{https://www.alysso.it/}{Alysso Srl}} % Organization
+    {Trento, IT} % Location
+    {Jul. 2017 - Aug. 2017} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Create corporate libraries with the aim of handling database connections regardless of the database management system (SQLite, PostgreSQL, MySQL, and Oracle) in Java.}
+        \item {Develop a Java-based internal software function that can calculate the distance between two buildings using GIS data.}
+        \item {Develop a web application in HTML5, CSS3, and JavaScript to show the obtained results.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Junior Software Developer} % Job title
+    {\href{https://www.socialit.it/en/}{Social IT}} % Organization
+    {Trento, IT} % Location
+    {Jun. 2016 - Jul. 2016} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Contribute to the development of an internal Customer Relationship Management System using Java, JavaScript, HTML5, CSS3, and MySQL.}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+
+\end{cventries}
+%------ END resume/experience.tex ------
+%------ BEGIN resume/teaching_experience.tex ------
+\cvsection{Teaching Experience}
+
+\begin{cventries}
+  \cventry
+    {Machine Learning \href{https://www.unitn.it/en/FUTURA}{FUTURA} Tutor} % Job title
+    {\href{https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50188_641129_95279/2021/50188/10752?coorte=2023&schemaid=8258}{Master in Mechatronics Engineering, University of Trento}} % Organization
+    {Trento, IT} % Location
+    {Sep. 2024 - Dec. 2024} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Introduction to machine learning, probability theory and linear algebra. Standard machine learning algorithms such as decision trees, k-nearest neighbors, Bayesian networks, support vector machines, and kernel machines, along with an introduction to neural networks and deep learning. Model evaluation, parameter estimation, and common techniques in unsupervised and reinforcement learning.}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Introduction to Web Programming Teaching Assistant} % Job title
+    {\href{https://unitn.coursecatalogue.cineca.it/insegnamenti/2024/50194_640745_90646/2008/50195/10114?coorte=2023&schemaid=9078}{Bachelor in Computer Science, University of Trento}} % Organization
+    {Trento, IT} % Location
+    {Feb. - Jun. 2025; Feb. - Jun. 2026} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Fundamentals of web development, including HTTP protocol, HTML, JavaScript, CSS, request-response cycle, asynchronous JavaScript frameworks (AJAX, AJAJ), state persistence, and database interaction, with practical experience in common web technologies, DOM manipulation, and the design and development of simple web applications using Java Spring.}
+      \end{cvitems}
+    }
+
+    \cventry
+    {Machine Learning Teaching Assistant} % Job title
+    {\href{https://unitn.coursecatalogue.cineca.it/insegnamenti/2025/50868_650944_94663/2025/50869/10884?coorte=2025&schemaid=9097}{Master in Artificial Intelligence Systems, University of Trento}} % Organization
+    {Trento, IT} % Location
+    {Sep. 2025 - Dec. 2025} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Introduction to machine learning, probability theory and linear algebra. Standard machine learning algorithms such as decision trees, k-nearest neighbors, Bayesian networks, support vector machines, and kernel machines, along with an introduction to neural networks and deep learning. Model evaluation, parameter estimation, and common techniques in unsupervised and reinforcement learning.}
+      \end{cvitems}
+    }
+
+\end{cventries}
+%------ END resume/teaching_experience.tex ------
+%------ BEGIN resume/publications.tex ------
+%-------------------------------------------------------------------------------
+%  SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Publications}
+
+%-------------------------------------------------------------------------------
+%  NEW SUBSECTION
+%-------------------------------------------------------------------------------
+% \cvsubsection{Journal Articles [x]}
+
+\begin{refsection}
+
+  \nocite{marconato2026symbol}
+
+  \printbibliography[
+    sorting=ydnt,
+    heading=subbibnumbered,
+    title={\bodyfont Journal Articles [\refsectionbibcount]}
+  ]
+\end{refsection}
+
+%-------------------------------------------------------------------------------
+%  CONFERENCE PROCEEDINGS
+%-------------------------------------------------------------------------------
+
+\begin{refsection}
+  \nocite{manhaeve2024benchmarking}
+  \nocite{bortolotti2024benchmark}
+  \nocite{marconato24bears}
+  \nocite{bortolotti2025shortcuts}
+
+  \printbibliography[
+    sorting=ydnt,
+    heading=subbibnumbered,
+    title={\bodyfont Conference Proceedings [\refsectionbibcount]}
+  ]
+\end{refsection}
+
+%-------------------------------------------------------------------------------
+%  PREPRINTS
+%-------------------------------------------------------------------------------
+
+\begin{refsection}
+  \nocite{bortolotti2026concise}
+
+  \printbibliography[
+   sorting=ydnt,
+   heading=subbibnumbered,
+   title={\bodyfont Preprints [\refsectionbibcount]},
+   type=misc
+ ]
+\end{refsection}
+
+* = Equal contribution.
+
+%-------------------------------------------------------------------------------
+%  NEW SUBSECTION
+%-------------------------------------------------------------------------------
+%\cvsubsection{Preprint (Unpublished) [x]}
+
+% \begin{refsection}
+%   \printbibliography[
+%     sorting=ydnt,
+%     heading=subbibnumbered,
+%     title={Preprint (Unpublished) [\refsectionbibcount]}
+%   ]
+% \end{refsection}
+
+%-------------------------------------------------------------------------------
+%  NEW SUBSECTION
+%-------------------------------------------------------------------------------
+%\cvsubsection{Workshop Papers [x]}
+
+% \begin{refsection}
+%   \printbibliography[
+%     sorting=ydnt,
+%     heading=subbibnumbered,
+%     title={Workshop Papers [\refsectionbibcount]}
+%   ]
+% \end{refsection}
+%------ END resume/publications.tex ------
+%------ BEGIN resume/talks.tex ------
+\cvsection{Talks}
+\begin{cventries}
+  \cventry
+    {Invited Talk}
+    {Benchmarking in Neuro-Symbolic AI}
+    {TAILOR, Online}
+    {Mar. 2025}
+    {}
+  \cventry
+    {Workshop Talk}
+    {Reasoning Shortcuts in Neuro-Symbolic AI}
+    {IML, University of Edinburgh}
+    {Mar. 2026}
+    {}
+  \cventry
+    {Invited Talk}
+    {How to Learn and Not Learn Concepts, Symbols, and Representations}
+    {University of Edinburgh}
+    {May. 2026}
+    {With Emanuele Marconato}
+\end{cventries}
+%------ END resume/talks.tex ------
+\newpage
+%------ BEGIN resume/collaborations.tex ------
+\cvsection{Main Research Collaborations}
+
+\begin{cventries}
+
+% Neuro-Symbolic AI
+\cventry
+    {%
+     \begin{minipage}[t]{\linewidth}
+     \href{https://stefanoteso.github.io/}{Stefano Teso}, CiMeC, University of Trento, Italy\\
+     \href{https://disi.unitn.it/~passerini/}{Andrea Passerini}, DISI, University of Trento\\
+     \href{http://nolovedeeplearning.com/}{Antonio Vergari}, School of Informatics, University of Edinburgh\\
+     \href{https://www.emilevankrieken.com/}{Emile van Krieken}, Vrije Universiteit Amsterdam
+     \end{minipage}%
+    }
+    {Neuro-Symbolic AI}
+    {}
+    {}
+    {}
+
+
+% Identifiability and Causality
+  \cventry
+    {
+        \href{https://scholar.google.com/citations?hl=it&user=H0gXWAgAAAAJ&view_op=list_works&sortby=pubdate}{Emanuele Marconato}, CoCaLa,  University of Copenhagen
+    }
+    {
+        Identifiability and Causality
+    }
+    {}
+    {}
+    {}
+
+% Uncertainty Quantification
+  \cventry
+    {
+        \href{https://andrepugni.github.io/}{Andrea Pugnana}, DISI, University of Trento}
+    {
+        Uncertainty Quantification and Calibration
+    }
+    {}
+    {}
+    {}
+\end{cventries}
+%------ END resume/collaborations.tex ------
+%\input{resume/projects.tex}
+%------ BEGIN resume/review.tex ------
+% in your document
+\cvsection{Reviewing activity}
+
+\begin{cventries}
+  \cventry
+    {Reviewer} % Role
+    {Conferences}
+    {} % Location
+    {} % Date(s)
+    {
+        \begin{cvitems}
+            \item {\href{https://www.auai.org/}{Uncertainty in Artificial Intelligence (UAI)}}\hfill2025, 2026
+            \item {\href{https://neurips.cc/}{Neural Information Processing Systems (NeurIPS)}}\hfill2025, 2026
+            \item {\href{https://ucrl-iclr26.github.io/}{Unifying Concept Representation Learning Workshop at ICLR}}\hfill2026
+            \item {\href{https://nesy-ai.org/conferences/nesy-2026}{Neurosymbolic AI (NeSy)}}\hfill2026
+            \item {\href{https://sml.disi.unitn.it/hldm26.html}{Hybrid Human-Machine Learning and Decision Making at ECML-PKDD}}\hfill2026
+            \item {\href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research (TMLR)}}\hfill2026
+      \end{cvitems}
+    }
+\end{cventries}
+%------ END resume/review.tex ------
+%------ BEGIN resume/extra_training.tex ------
+\cvsection{Extracurricular Training}
+
+\begin{cventries}
+  \cventry
+    {Attendee} % Role
+    {\href{https://nordic.probabilistic.ai/}{Nordic Probabilistic AI School}} % Summer School
+    {Copenhagen, DK} % Location
+    {Jun. 2024} % Date(s)
+    {
+      \begin{cvitems}
+        \item {\textbf{Acceptance rate}: 18\%.}
+        \item {\textbf{Topics}: Probabilistic models, bayesian workflow, variational inference and optimization, deep generative models, diffusion models, Monte Carlo methods, probabilistic circuits, gaussian processes and causal inference.}
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+  \cventry
+    {Visiting Researcher}
+    {\href{https://informatics.ed.ac.uk/}{School of Informatics, University of Edinburgh}}
+    {Edinburgh, UK}
+    {Mar. 2026 - Jun. 2026}
+    {
+      \begin{cvitems}
+        \item {Visiting the \href{https://april-tools.github.io/}{APRIL} Lab under the supervision of professor \href{http://nolovedeeplearning.com/}{Antonio Vergari}.}
+        \item {Research project on Constraint Learning using Large Language Models.}
+      \end{cvitems}
+    }
+\end{cventries}
+%------ END resume/extra_training.tex ------
+%------ BEGIN resume/skills.tex ------
+\cvsection{Skills}
+
+\begin{cvskills}
+
+  \cvskill
+    {Programming} % Category
+    {Python (proficient), Java (proficient), Ruby (intermediate), JavaScript (intermediate), TypeScript (intermediate), \newline R (intermediate), C++ (intermediate), C (intermediate), C\# (academic), Matlab (academic)} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Miscellaneous} % Category
+    {Linux, Git, GitHub, LaTeX, SQL, PyTorch, TensorFlow, Keras} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Languages} % Category
+    {English (C1), Italian (native), German (A2)} % Skills
+
+%---------------------------------------------------------
+\end{cvskills}
+%------ END resume/skills.tex ------
+%------ BEGIN resume/honors.tex ------
+\cvsection{Honors \& Awards}
+
+% \cvsubsection{International}
+
+\begin{cvhonors}
+  \cvhonor
+    {Mobility Grant} % Award
+    {Erasmus+ Traineeship Programme (2 months)} % Event
+    {Barcelona, ES} % Location
+    {2021} % Date(s)
+
+%---------------------------------------------------------
+
+  \cvhonor
+    {Merit Grant} % Award
+    {Premio allo studio Marco Modena (Cassa Rurale Alto Garda - Rovereto, Trento, IT)} % Event
+    {Trento, IT} % Location
+    {2022} % Date(s)
+
+%---------------------------------------------------------
+
+\cvhonor
+    {Ph.D. scholarship} % Award
+    {Three year sponsorship: rank 6th out of 120 participants} % Event
+    {Trento, IT} % Location
+    {2023} % Date(s)
+
+%---------------------------------------------------------
+  \cvhonor
+    {Travel Grant} % Award
+    {NeurIPS Conference Financial Assistance Award} % Event
+    {San Diego, USA} % Location
+    {2025} % Date(s)
+
+%---------------------------------------------------------
+  \cvhonor
+    {Mobility Grant} % Award
+    {Erasmus+ Traineeship Programme (3 months)} % Event
+    {Edinburgh, UK} % Location
+    {2026} % Date(s)
+
+
+\end{cvhonors}
+%------ END resume/honors.tex ------
+
+
+%-------------------------------------------------------------------------------
+\end{document}

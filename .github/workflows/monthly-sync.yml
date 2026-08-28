@@ -1,0 +1,69 @@
+name: Monthly sync
+
+# Once a month: refresh publications from DBLP, rebuild the CV bibliography and
+# the résumé data, recompile the CV PDF only if a new publication appeared, and
+# open a pull request with whatever changed. Future news stays manual.
+
+on:
+  schedule:
+    - cron: "0 4 1 * *"   # 04:00 UTC on the 1st of each month
+  workflow_dispatch:        # or run it by hand from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: monthly-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: true
+
+      - name: Sync publications from DBLP
+        run: bundle exec rake publications
+
+      - name: Rebuild CV bibliography and résumé data
+        run: |
+          bundle exec rake cv:bib
+          bundle exec rake cv:sync
+          bundle exec rake cv:i18n || true
+
+      - name: Recompile the CV only if the bibliography changed
+        run: |
+          if git diff --quiet -- cv/resume/references.bib; then
+            echo "references.bib unchanged - no new publication, skipping the CV compile."
+          else
+            echo "references.bib changed - recompiling the CV."
+            sudo apt-get update -qq
+            sudo apt-get install -y --no-install-recommends \
+              texlive-xetex texlive-latex-extra texlive-bibtex-extra \
+              texlive-fonts-recommended biber latexmk
+            bundle exec rake cv
+          fi
+
+      - name: Open a pull request with any changes
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/monthly-sync
+          delete-branch: true
+          commit-message: "chore: monthly sync (publications, CV)"
+          title: "Monthly sync: publications & CV"
+          body: |
+            Automated `rake publications` (DBLP) + `rake cv:bib` / `rake cv:sync`,
+            plus a CV recompile if a new publication changed `references.bib`.
+
+            **Before merging**
+            - skim any new `_publications/*.md` for a `TODO` abstract;
+            - check the `_data/cv.yml` diff;
+            - add `it` / `de` lines to `_data/cv_i18n.yml` for any new résumé
+              strings (`rake cv:i18n:check` lists them).
+          labels: automated
