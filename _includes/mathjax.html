@@ -1,21 +1,15 @@
-<!-- Mathjax configuration start -->
-<script type="text/javascript" async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    displayAlign: "center",
-    displayIndent: "0",
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    tex2jax: {
-      inlineMath: [ ['$','$'], ['\\(', '\\)']],
-      displayMath: [ ['$$','$$'] ],
+<!-- MathJax 3, self-hosted (see assets/js/mathjax/README.txt). No third-party requests. -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
       processEscapes: true,
+      tags: 'ams'
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
     }
-  });
+  };
 </script>
-<!-- Mathjax configuration end -->
+<script id="MathJax-script" async src="{{ '/assets/js/mathjax/tex-svg.js' | relative_url }}"></script>

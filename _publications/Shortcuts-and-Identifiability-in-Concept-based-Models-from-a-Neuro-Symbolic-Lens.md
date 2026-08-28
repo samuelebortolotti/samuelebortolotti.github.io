@@ -2,12 +2,12 @@
 layout: post
 permalink: /publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
 title: Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens
-date: 2025-02-16
+date: 2025-12-01
 redirect_from:
   - /en/publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
   - /it/publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
   - /de/publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
-ref: /publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
+ref: publications
 authors:
   - Samuele Bortolotti
   - Emanuele Marconato
@@ -16,10 +16,12 @@ authors:
   - Stefano Teso
 conference: NeurIPS 2025
 lang: en
-ref: publications
 conference_url: https://neurips.cc/Conferences/2025
 paper: https://openreview.net/forum?id=rdp1dLxyMI
 nav_bar: publications
+dblp_key: conf/nips/BortolottiMMPT25
+dblp_url: https://dblp.org/rec/conf/nips/BortolottiMMPT25.html
+dblp_keys: conf/nips/BortolottiMMPT25, journals/corr/abs-2502-11245
 ---
 
 # Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens

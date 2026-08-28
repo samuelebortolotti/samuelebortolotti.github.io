@@ -12,9 +12,9 @@ source 'https://rubygems.org'
 # If you want to use GitHub Pages, remove the 'gem 'jekyll'' above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem 'github-pages', group: :jekyll_plugins
-# If you have any plugins, put them here!
+# Plugins. jekyll-seo-tag and jekyll-sitemap ship with the github-pages gem and
+# are activated from _config.yml. The custom feed.xml replaces jekyll-feed.
 group :jekyll_plugins do
-  gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-redirect-from', '~> 0.16'
 end
 

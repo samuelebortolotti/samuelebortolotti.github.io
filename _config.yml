@@ -1,14 +1,25 @@
 title: Samuele Bortolotti's personal web page
 author: Samuele Bortolotti
-email: samuele.bortolotti@studenti.unitn.it
-description: >- # this means to ignore newlines until "baseurl:"
-  Samuele Bortolotti's personal web page
+email: samuele.bortolotti@unitn.it
+lang: en
+description: >-
+  Personal web page of Samuele Bortolotti, Ph.D. candidate in Computer Science at
+  the University of Trento, working on machine learning, trustworthy AI and
+  neuro-symbolic integration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://samuelebortolotti.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: samuelebortolotti
-repository: samuelebortolotti/samuelebortolotti.github.io 
+repository: samuelebortolotti/samuelebortolotti.github.io
 
-# Use MathJax
+# Used by jekyll-seo-tag for the "sameAs" list in the Person JSON-LD block
+social:
+  name: Samuele Bortolotti
+  links:
+    - https://github.com/samuelebortolotti
+    - https://www.linkedin.com/in/samuele-bortolotti
+    - https://scholar.google.com/citations?user=w7Cv80sAAAAJ
+
+# Markdown / math
 markdown: kramdown
 kramdown:
   input: GFM
@@ -16,41 +27,25 @@ kramdown:
 
 # Build settings
 encoding: UTF-8
+future: true   # show publications/news dated ahead of the build clock
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Default language
-include: [en]
-
-# Projects and Publications collection
+# Publications collection
 collections:
-  projects:
-    output: true
-    permalink: /:lang/projects/:title
   publications:
     output: true
     permalink: /publications/:title
-  
 
-feed:
-  posts_limit: 20
-  collections:
-    - projects
-    - publications
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
+# Kept out of the built site (in addition to Jekyll's own defaults).
 exclude:
   - Makefile
   - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
+  - Rakefile
+  - scripts
+  - cv

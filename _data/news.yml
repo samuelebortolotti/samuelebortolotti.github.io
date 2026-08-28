@@ -1,0 +1,105 @@
+# Hand-maintained news feed shown on the home page, on /news, and in /feed.xml.
+# Newest first. Each entry: date (YYYY-MM-DD), en / it / de text, optional url.
+# The text is Markdown: **bold** the paper title, _emph_ a talk title, link the
+# venue / school / person, end milestones with "!". No emojis.
+# Publications: one entry for the preprint, one for acceptance / publication.
+# Keep the three languages in sync.
+
+- date: 2026-08-01
+  url: /publications/Concise-and-Logically-Consistent-Conformal-Sets-for-Neuro-Symbolic-Concept-Based-Models.html
+  en: 'Our paper **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** has been accepted at the [HLDM workshop](https://sml.disi.unitn.it/hldm26.html) at [ECML-PKDD 2026](https://ecmlpkdd.org/2026/)!'
+  it: 'Il nostro articolo **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** è stato accettato al [workshop HLDM](https://sml.disi.unitn.it/hldm26.html) di [ECML-PKDD 2026](https://ecmlpkdd.org/2026/)!'
+  de: 'Unser Paper **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** wurde beim [HLDM-Workshop](https://sml.disi.unitn.it/hldm26.html) auf der [ECML-PKDD 2026](https://ecmlpkdd.org/2026/) angenommen!'
+
+- date: 2026-05-18
+  url: /publications/Concise-and-Logically-Consistent-Conformal-Sets-for-Neuro-Symbolic-Concept-Based-Models.html
+  en: 'New preprint on [arXiv](https://arxiv.org/abs/2605.18202): **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"**!'
+  it: 'Nuovo preprint su [arXiv](https://arxiv.org/abs/2605.18202): **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"**!'
+  de: 'Neuer Preprint auf [arXiv](https://arxiv.org/abs/2605.18202): **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"**!'
+
+- date: 2026-05-05
+  en: 'I gave an invited talk, _"How to Learn and Not Learn Concepts, Symbols, and Representations"_, at the [University of Edinburgh](https://informatics.ed.ac.uk/), together with [Emanuele Marconato](https://emanuele-marconato.github.io/).'
+  it: 'Ho tenuto un talk su invito, _"How to Learn and Not Learn Concepts, Symbols, and Representations"_, alla [University of Edinburgh](https://informatics.ed.ac.uk/), insieme a [Emanuele Marconato](https://emanuele-marconato.github.io/).'
+  de: 'Ich habe einen eingeladenen Vortrag gehalten, _"How to Learn and Not Learn Concepts, Symbols, and Representations"_, an der [University of Edinburgh](https://informatics.ed.ac.uk/), gemeinsam mit [Emanuele Marconato](https://emanuele-marconato.github.io/).'
+
+- date: 2026-03-15
+  en: 'I presented _"Reasoning Shortcuts in Neuro-Symbolic AI"_ at a workshop at the [University of Edinburgh](https://informatics.ed.ac.uk/).'
+  it: 'Ho presentato _"Reasoning Shortcuts in Neuro-Symbolic AI"_ in un workshop alla [University of Edinburgh](https://informatics.ed.ac.uk/).'
+  de: 'Ich habe _"Reasoning Shortcuts in Neuro-Symbolic AI"_ bei einem Workshop an der [University of Edinburgh](https://informatics.ed.ac.uk/) vorgestellt.'
+
+- date: 2026-03-01
+  url: https://april-tools.github.io/
+  en: 'I started a three-month research visit to the [APRIL Lab](https://april-tools.github.io/) at the [University of Edinburgh](https://informatics.ed.ac.uk/), working with [Antonio Vergari](https://nolovedeeplearning.com/) on constraint acquisition with Large Language Models.'
+  it: 'Ho iniziato un periodo di ricerca di tre mesi presso l''[APRIL Lab](https://april-tools.github.io/) della [University of Edinburgh](https://informatics.ed.ac.uk/), lavorando con [Antonio Vergari](https://nolovedeeplearning.com/) su constraint acquisition con i Large Language Models.'
+  de: 'Ich habe einen dreimonatigen Forschungsaufenthalt am [APRIL Lab](https://april-tools.github.io/) der [University of Edinburgh](https://informatics.ed.ac.uk/) begonnen und arbeite dort mit [Antonio Vergari](https://nolovedeeplearning.com/) an constraint acquisition mit Large Language Models.'
+
+- date: 2026-01-01
+  url: /publications/Symbol-Grounding-in-Neuro-Symbolic-AI-A-Gentle-Introduction-to-Reasoning-Shortcuts.html
+  en: 'Our paper **"Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts"** appeared in the [Journal of Artificial Intelligence Research](https://www.jair.org/index.php/jair/article/view/22389) (vol. 86)!'
+  it: 'Il nostro articolo **"Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts"** è uscito sul [Journal of Artificial Intelligence Research](https://www.jair.org/index.php/jair/article/view/22389) (vol. 86)!'
+  de: 'Unser Artikel **"Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts"** ist im [Journal of Artificial Intelligence Research](https://www.jair.org/index.php/jair/article/view/22389) (Bd. 86) erschienen!'
+
+- date: 2025-12-02
+  url: /publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
+  en: 'Our paper **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"** was published at [NeurIPS 2025](https://neurips.cc/Conferences/2025)!'
+  it: 'Il nostro articolo **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"** è stato pubblicato a [NeurIPS 2025](https://neurips.cc/Conferences/2025)!'
+  de: 'Unser Paper **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"** wurde bei der [NeurIPS 2025](https://neurips.cc/Conferences/2025) veröffentlicht!'
+
+- date: 2025-10-16
+  url: /publications/Symbol-Grounding-in-Neuro-Symbolic-AI-A-Gentle-Introduction-to-Reasoning-Shortcuts.html
+  en: 'New preprint on [arXiv](https://arxiv.org/abs/2510.14538): **"Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts"**!'
+  it: 'Nuovo preprint su [arXiv](https://arxiv.org/abs/2510.14538): **"Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts"**!'
+  de: 'Neuer Preprint auf [arXiv](https://arxiv.org/abs/2510.14538): **"Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts"**!'
+
+- date: 2025-09-18
+  url: /publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
+  en: 'Our paper **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"** was accepted at [NeurIPS 2025](https://neurips.cc/Conferences/2025)!'
+  it: 'Il nostro articolo **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"** è stato accettato a [NeurIPS 2025](https://neurips.cc/Conferences/2025)!'
+  de: 'Unser Paper **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"** wurde bei der [NeurIPS 2025](https://neurips.cc/Conferences/2025) angenommen!'
+
+- date: 2025-03-01
+  en: 'I gave an invited talk, _"Benchmarking in Neuro-Symbolic AI"_, at [TAILOR](https://tailor-network.eu/) (online).'
+  it: 'Ho tenuto un talk su invito, _"Benchmarking in Neuro-Symbolic AI"_, a [TAILOR](https://tailor-network.eu/) (online).'
+  de: 'Ich habe einen eingeladenen Vortrag gehalten, _"Benchmarking in Neuro-Symbolic AI"_, bei [TAILOR](https://tailor-network.eu/) (online).'
+
+- date: 2025-02-16
+  url: /publications/Shortcuts-and-Identifiability-in-Concept-based-Models-from-a-Neuro-Symbolic-Lens.html
+  en: 'New preprint on [arXiv](https://arxiv.org/abs/2502.11245): **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"**!'
+  it: 'Nuovo preprint su [arXiv](https://arxiv.org/abs/2502.11245): **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"**!'
+  de: 'Neuer Preprint auf [arXiv](https://arxiv.org/abs/2502.11245): **"Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens"**!'
+
+- date: 2024-12-10
+  url: /publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
+  en: 'Our paper **"A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"** (rsbench) was published at [NeurIPS 2024](https://neurips.cc/Conferences/2024) (Datasets & Benchmarks Track)!'
+  it: 'Il nostro articolo **"A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"** (rsbench) è stato pubblicato a [NeurIPS 2024](https://neurips.cc/Conferences/2024) (Datasets & Benchmarks Track)!'
+  de: 'Unser Paper **"A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"** (rsbench) wurde bei der [NeurIPS 2024](https://neurips.cc/Conferences/2024) veröffentlicht (Datasets & Benchmarks Track)!'
+
+- date: 2024-09-20
+  url: /publications/Benchmarking-in-Neuro-Symbolic-AI.html
+  en: 'Our paper **"Benchmarking in Neuro-Symbolic AI"** was published at [IJCLR 2024](https://www.lamda.nju.edu.cn/ijclr24/) in Nanjing!'
+  it: 'Il nostro articolo **"Benchmarking in Neuro-Symbolic AI"** è stato pubblicato a [IJCLR 2024](https://www.lamda.nju.edu.cn/ijclr24/) a Nanchino!'
+  de: 'Unser Paper **"Benchmarking in Neuro-Symbolic AI"** wurde bei der [IJCLR 2024](https://www.lamda.nju.edu.cn/ijclr24/) in Nanjing veröffentlicht!'
+
+- date: 2024-07-15
+  url: /publications/BEARS-Make-Neuro-Symbolic-Models-Aware-of-their-Reasoning-Shortcuts.html
+  en: 'Our paper **"BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"** was published at [UAI 2024](https://www.auai.org/uai2024/) as a **Spotlight**!'
+  it: 'Il nostro articolo **"BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"** è stato pubblicato a [UAI 2024](https://www.auai.org/uai2024/) come **Spotlight**!'
+  de: 'Unser Paper **"BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"** wurde bei der [UAI 2024](https://www.auai.org/uai2024/) als **Spotlight** veröffentlicht!'
+
+- date: 2024-06-17
+  url: https://nordic.probabilistic.ai/
+  en: 'I attended the [Nordic Probabilistic AI School](https://nordic.probabilistic.ai/) (ProbAI) in Copenhagen, 17–21 June 2024.'
+  it: 'Ho partecipato alla [Nordic Probabilistic AI School](https://nordic.probabilistic.ai/) (ProbAI) a Copenhagen, 17–21 giugno 2024.'
+  de: 'Ich habe an der [Nordic Probabilistic AI School](https://nordic.probabilistic.ai/) (ProbAI) in Kopenhagen teilgenommen, 17.–21. Juni 2024.'
+
+- date: 2024-06-14
+  url: /publications/A-Neuro-Symbolic-Benchmark-Suite-for-Concept-Quality-and-Reasoning-Shortcuts.html
+  en: 'New preprint on [arXiv](https://arxiv.org/abs/2406.10368): **"A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"** (rsbench)!'
+  it: 'Nuovo preprint su [arXiv](https://arxiv.org/abs/2406.10368): **"A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"** (rsbench)!'
+  de: 'Neuer Preprint auf [arXiv](https://arxiv.org/abs/2406.10368): **"A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"** (rsbench)!'
+
+- date: 2024-02-19
+  url: /publications/BEARS-Make-Neuro-Symbolic-Models-Aware-of-their-Reasoning-Shortcuts.html
+  en: 'New preprint on [arXiv](https://arxiv.org/abs/2402.12240): **"BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"**!'
+  it: 'Nuovo preprint su [arXiv](https://arxiv.org/abs/2402.12240): **"BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"**!'
+  de: 'Neuer Preprint auf [arXiv](https://arxiv.org/abs/2402.12240): **"BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts"**!'
