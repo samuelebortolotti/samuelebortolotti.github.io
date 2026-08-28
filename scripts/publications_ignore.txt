@@ -1,0 +1,11 @@
+# DBLP records that `rake publications` should NOT turn into a _publications/ entry.
+# One per line. A line is either a DBLP record key (e.g. journals/corr/abs-2406-10368)
+# or a normalised title (lower-case, punctuation collapsed to single spaces).
+# Everything after a `#` is a comment. Delete a line to let the record back in.
+
+# arXiv/dataset companion of the NeurIPS 2024 paper
+# "A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"
+# (rsbench) - already listed via the NeurIPS record, different title so it is not
+# auto-deduplicated.
+journals/corr/abs-2406-10368
+a benchmark suite for systematically evaluating reasoning shortcuts

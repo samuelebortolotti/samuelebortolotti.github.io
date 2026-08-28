@@ -6,25 +6,37 @@ redirect_from: /en/publications.html
 lang: en
 ref: publications
 nav_bar: publications
+description: My latest papers and preprints, synced from DBLP.
 ---
 # Publications
 
-{% assign publications=site.publications | sort: 'date' | reverse %}
+{% if site.data.publications %}
+<p class="synced">
+  Synced from <a href="{{ site.data.publications.source }}.html">{{ site.data.publications.source_name }}</a>
+  on {{ site.data.publications.last_updated | date: "%B %-d, %Y" }}
+  &middot; {{ site.data.publications.count }} entries.
+</p>
+{% endif %}
+
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% assign current_year = '' %}
 {% for publication in publications %}
-<div class="post">
-  <span style="font-weight: bold">{{ publication.date | date: "%b %-d, %Y" }}</span>
-  <h2 style="margin:0px">
-    <a class="post-link" href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
-  </h2>
-  <p style="margin: 0.5em 0em;">
-  {% for author in publication.authors %}
-  {% if author == "Samuele Bortolotti" %}
-    <b>{{ author }}</b>{% unless forloop.last %}, {% endunless %}
-  {% else %}
-    {{ author }}{% unless forloop.last %}, {% endunless %}
+  {% assign year = publication.date | date: '%Y' %}
+  {% if year != current_year %}
+    {% assign current_year = year %}
+<h2 class="pub-year">{{ year }}</h2>
   {% endif %}
-  {% endfor %}
+<div class="post">
+  <h3 class="pub-title"><a class="post-link" href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+  <p class="pub-authors">
+    {%- for author in publication.authors -%}
+      {%- if author == "Samuele Bortolotti" -%}<b>{{ author }}</b>{%- else -%}{{ author }}{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
   </p>
-  <p><a href="{{ publication.conference_url }}"><em>{{ publication.conference }}</em></a> - (<a href="{{ publication.paper }}">PDF</a>)</p>
+  <p class="pub-venue">
+    {% if publication.conference_url %}<a href="{{ publication.conference_url }}"><em>{{ publication.conference }}</em></a>{% else %}<em>{{ publication.conference }}</em>{% endif %}
+    {% if publication.paper %}&middot; <a href="{{ publication.paper }}">paper</a>{% endif %}
+  </p>
 </div>
 {% endfor %}
