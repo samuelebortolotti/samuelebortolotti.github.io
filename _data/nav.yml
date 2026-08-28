@@ -1,0 +1,16 @@
+# Navigation menu labels, per language. Rendered in _includes/sidebar.html.
+en:
+  about: About
+  news: News
+  publications: Publications
+  resume: Short Résumé
+it:
+  about: Chi sono
+  news: Novità
+  publications: Pubblicazioni
+  resume: Curriculum
+de:
+  about: Über mich
+  news: Neuigkeiten
+  publications: Publikationen
+  resume: Lebenslauf

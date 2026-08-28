@@ -9,7 +9,7 @@
   {% endif %}
     <picture>
       <source srcset="/assets/images/samuele.webp" type="image/webp">
-      <img class="me" width="192" height="192" fetchpriority="high" decoding="async" alt="Portrait of Samuele Bortolotti" src="/assets/images/samuele.jpg">
+      <img class="me" width="192" height="192" fetchpriority="high" decoding="async" alt="My portrait" src="/assets/images/samuele.jpg">
     </picture>
     <div class="name">
       Samuele Bortolotti
@@ -34,48 +34,49 @@
     <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#46;&#98;&#111;&#114;&#116;&#111;&#108;&#111;&#116;&#116;&#105;&#64;&#117;&#110;&#105;&#116;&#110;&#46;&#105;&#116;" title="Email" aria-label="Email">@</a>
   </div>
   <!-- Effective Navbar -->
+  {% assign nav = site.data.nav[page.lang] | default: site.data.nav.en %}
   <ul class="navlinks">
     <li>
       {% if page.nav_bar == "index" %}
-      <a aria-current="page" class="active" href="/">About</a>
+      <a aria-current="page" class="active" href="/">{{ nav.about }}</a>
       {% else %}
       {% if page.lang == "en" %}
-      <a href="/">About</a>
+      <a href="/">{{ nav.about }}</a>
       {% else %}
-      <a href="/{{page.lang}}/">About</a>
+      <a href="/{{page.lang}}/">{{ nav.about }}</a>
       {% endif %}
       {% endif %}
     </li>
     <li>
       {% if page.nav_bar == "news" %}
-      <a aria-current="page" class="active" href="/{{page.lang}}/news">News</a>
+      <a aria-current="page" class="active" href="/{{page.lang}}/news">{{ nav.news }}</a>
       {% else %}
       {% if page.lang == "en" %}
-      <a href="/news">News</a>
+      <a href="/news">{{ nav.news }}</a>
       {% else %}
-      <a href="/{{page.lang}}/news">News</a>
+      <a href="/{{page.lang}}/news">{{ nav.news }}</a>
       {% endif %}
       {% endif %}
     </li>
     <li>
       {% if page.nav_bar == "publications" %}
-      <a aria-current="page" class="active" href="/{{page.lang}}/publications">Publications</a>
+      <a aria-current="page" class="active" href="/{{page.lang}}/publications">{{ nav.publications }}</a>
       {% else %}
       {% if page.lang == "en" %}
-      <a href="/publications">Publications</a>
+      <a href="/publications">{{ nav.publications }}</a>
       {% else %}
-      <a href="/{{page.lang}}/publications">Publications</a>
+      <a href="/{{page.lang}}/publications">{{ nav.publications }}</a>
       {% endif %}
       {% endif %}
     </li>
     <li>
       {% if page.nav_bar == "resume" %}
-      <a aria-current="page" class="active" href="/{{page.lang}}/resume">Short R&eacute;sum&eacute;</a>
+      <a aria-current="page" class="active" href="/{{page.lang}}/resume">{{ nav.resume }}</a>
       {% else %}
       {% if page.lang == "en" %}
-      <a href="/resume">Short R&eacute;sum&eacute;</a>
+      <a href="/resume">{{ nav.resume }}</a>
       {% else %}
-      <a href="/{{page.lang}}/resume">Short R&eacute;sum&eacute;</a>
+      <a href="/{{page.lang}}/resume">{{ nav.resume }}</a>
       {% endif %}
       {% endif %}
     </li>
