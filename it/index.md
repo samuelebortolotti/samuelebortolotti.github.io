@@ -4,15 +4,25 @@ title: Home
 lang: it
 ref: index
 nav_bar: index
+description: >-
+  Samuele Bortolotti, dottorando in Informatica all'Università di Trento; lavora
+  per rendere i modelli di machine learning più affidabili tramite l'integrazione
+  neuro-simbolica.
 ---
 # Benvenuti
 
-Sono Samuele Bortolotti, dottorando in Informatica presso lo [Structured Machine Learning Group](https://sml.disi.unitn.it/) dell'Università di Trento, sotto la supervisione del professor [Stefano Teso](https://stefanoteso.github.io/) e del professor [Andrea Passerini](https://disi.unitn.it/~passerini/index.html). I miei principali interessi di ricerca riguardano explainable artificial intelligence, shortcut learning, e neuro‑symbolic machine learning.
+Sono Samuele Bortolotti, dottorando in Informatica all'Università di Trento, dove collaboro con lo [Structured Machine Learning Group](https://sml.disi.unitn.it/) sotto la supervisione di [Stefano Teso](https://stefanoteso.github.io/) e [Andrea Passerini](https://disi.unitn.it/~passerini/index.html).
 
-I miei studi si sono concentrati principalmente su programmazione e machine learning. Sono interessato a diversi aspetti della programmazione, come la programmazione di software distribuito, le architetture web, la gestione di database, la programmazione parallela e altro ancora. Più di recente, mi sono focalizzato sull'affidabilità dei modelli di machine learning, in particolare su come i modelli imparano dai dati, dove possono fallire e su come l'intelligenza artificiale neuro-simbolica può migliorare la loro affidabilità.
+Mi occupo di machine learning, trustworthy AI e integrazione neuro-simbolica. Studio come i modelli di machine learning imparano dai dati, e dove e perché falliscono — per esempio le *reasoning shortcuts*, in cui un modello arriva alla risposta giusta per le ragioni sbagliate. Vorrei un'IA che supporti le persone e sia degna di fiducia, fondata su regole esplicite e ispezionabili scritte in logica.
 
-Ho conseguito la laurea triennale e magistrale (con lode) in Informatica presso l'Università di Trento rispettivamente nel 2021 e nel 2023.
+Nella primavera del 2026 ho trascorso tre mesi all'[APRIL Lab](https://april-tools.github.io/), lavorando con [Antonio Vergari](https://nolovedeeplearning.com/) su constraint acquisition con i Large Language Models.
 
-In questa pagina troverete i miei contatti, il mio CV e una panoramica delle mie pubblicazioni recenti.
+Ho conseguito la laurea triennale e magistrale in Informatica, entrambe con lode, all'Università di Trento nel 2021 e nel 2023, rispettivamente.
 
-Sentitevi liberi di contattarmi in inglese, italiano o tedesco. Attualmente sto cercando di migliorare la mia conoscenza del tedesco, quindi vi chiedo scusa per eventuali incomprensioni.
+Sono sempre disponibile per una collaborazione o una chiacchierata, che tu sia interessato alla mia ricerca, curioso di sapere cosa faccio o semplicemente voglia salutare. Scrivimi pure in inglese, italiano o tedesco. Il mio tedesco è ancora in fase di miglioramento, quindi porta pazienza se qualcosa si perde nella traduzione :)
+
+## Novità
+
+{% include news_list.html limit=5 compact=true %}
+
+[Tutte le novità &rarr;](/it/news)

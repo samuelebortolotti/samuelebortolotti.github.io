@@ -1,31 +1,37 @@
 <div class="nav">
   <!-- Me -->
-  {% if page.lang == "en" %}
+  {% if page.nav_bar == "index" %}
   <a aria-current="page" href="/">
+  {% elsif page.lang == "en" %}
+  <a href="/">
   {% else %}
-  <a aria-current="page" href="/{{page.lang}}">
+  <a href="/{{ page.lang }}/">
   {% endif %}
-    <img class="me" alt="Samuele" type="image/jpeg" src="/assets/images/samuele.jpg">
+    <picture>
+      <source srcset="/assets/images/samuele.webp" type="image/webp">
+      <img class="me" width="192" height="192" fetchpriority="high" decoding="async" alt="Portrait of Samuele Bortolotti" src="/assets/images/samuele.jpg">
+    </picture>
     <div class="name">
       Samuele Bortolotti
     </div>
   </a>
   <!-- Short description -->
   {% if page.lang == "it" %}
-  <p>Dottorando presso l'Università di Trento in informatica. Interessato a neuro-symbolic machine learning, explainable AI e interactive machine learning.</p>
+  <p>Dottorando in Informatica all'Università di Trento; si occupa di machine learning, trustworthy AI e integrazione neuro-simbolica.</p>
   {% elsif page.lang == "de" %}
-  <p>Doktorand an der Universität Trient in Informatik. Interessiert sich für neuro-symbolisches maschinelles Lernen, erklärbare KI und interaktives maschinelles Lernen.</p>
+  <p>Doktorand der Informatik an der Universität Trient; Forschung zu maschinellem Lernen, vertrauenswürdiger KI und neuro-symbolischer Integration.</p>
   {% else %}
-  <p>Ph.D. student at the University of Trento in Computer Science. Interested in neuro-symbolic machine learning, explainable AI and interactive machine learning.</p>
+  <p>Ph.D. candidate in Computer Science at the University of Trento, working on machine learning, trustworthy AI and neuro-symbolic integration.</p>
   {% endif %}
   <!-- Links on the Sidebar -->
   <div class="links">
-    <a target="_blank" href="/files/bortolotti_samuele_cv.pdf" type="application/pdf" title="Samuele Bortolotti CV">CV</a>
-    <a target="_blank" href="https://scholar.google.com/citations?user=w7Cv80sAAAAJ&hl=it&oi=ao" title="Google Scholar link">Scholar</a>
-    <a target="_blank" href="https://github.com/samuelebortolotti" title="GitHub link">GitHub</a>
-    <a target="_blank" href="https://www.linkedin.com/in/samuele-bortolotti " title="LinkedIn link">LinkedIn</a>
-    <a target="_blank" href="/feed.xml" type="application/xml" title="RSS Feed">RSS</a>
-    <a target="_blank" href="mailto:&#x73;&#x61;&#x6D;&#x75;&#x65;&#x6C;&#x65;&#x2E;&#x62;&#x6F;&#x72;&#x74;&#x6F;&#x6C;&#x6F;&#x74;&#x74;&#x69;&#x40;&#x75;&#x6E;&#x69;&#x74;&#x6E;&#x2E;&#x69;&#x74;" title="Email">@</a>
+    <a target="_blank" rel="noopener" href="/files/bortolotti_samuele_cv.pdf" type="application/pdf" title="Samuele Bortolotti CV">CV</a>
+    <a target="_blank" rel="noopener" href="https://scholar.google.com/citations?user=w7Cv80sAAAAJ&hl=it&oi=ao" title="Google Scholar profile">Scholar</a>
+    <a target="_blank" rel="noopener" href="https://github.com/samuelebortolotti" title="GitHub profile">GitHub</a>
+    <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/samuele-bortolotti" title="LinkedIn profile">LinkedIn</a>
+    <a target="_blank" rel="noopener" href="https://x.com/samubortolotti" title="X profile">X</a>
+    <a href="/feed.xml" type="application/rss+xml" title="RSS feed">RSS</a>
+    <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#109;&#117;&#101;&#108;&#101;&#46;&#98;&#111;&#114;&#116;&#111;&#108;&#111;&#116;&#116;&#105;&#64;&#117;&#110;&#105;&#116;&#110;&#46;&#105;&#116;" title="Email" aria-label="Email">@</a>
   </div>
   <!-- Effective Navbar -->
   <ul class="navlinks">
@@ -41,6 +47,17 @@
       {% endif %}
     </li>
     <li>
+      {% if page.nav_bar == "news" %}
+      <a aria-current="page" class="active" href="/{{page.lang}}/news">News</a>
+      {% else %}
+      {% if page.lang == "en" %}
+      <a href="/news">News</a>
+      {% else %}
+      <a href="/{{page.lang}}/news">News</a>
+      {% endif %}
+      {% endif %}
+    </li>
+    <li>
       {% if page.nav_bar == "publications" %}
       <a aria-current="page" class="active" href="/{{page.lang}}/publications">Publications</a>
       {% else %}
@@ -51,30 +68,6 @@
       {% endif %}
       {% endif %}
     </li>
-    <!--
-    <li>
-      {% if page.nav_bar == "projects" %}
-      <a aria-current="page" class="active" href="/{{page.lang}}/projects">Projects</a>
-      {% else %}
-      {% if page.lang == "en" %}
-      <a href="/projects">Projects</a>
-      {% else %}
-      <a href="/{{page.lang}}/projects">Projects</a>
-      {% endif %}
-      {% endif %}
-    </li>
-    <li>
-      {% if page.nav_bar == "blog" %}
-      <a aria-current="page" class="active" href="/{{page.lang}}/blog">Blog</a>
-      {% else %}
-      {% if page.lang == "en" %}
-      <a href="/blog">Blog</a>
-      {% else %}
-      <a href="/{{page.lang}}/blog">Blog</a>
-      {% endif %}
-      {% endif %}
-    </li>
-    -->
     <li>
       {% if page.nav_bar == "resume" %}
       <a aria-current="page" class="active" href="/{{page.lang}}/resume">Short R&eacute;sum&eacute;</a>
@@ -88,20 +81,21 @@
     </li>
   </ul>
   <div class="links" style="margin-top:0em; font-size:100%">
+    {% if page.ref == "index" %}{% assign langpath = "" %}{% else %}{% assign langpath = page.ref %}{% endif %}
     {% if page.lang == "en" %}
-    <a aria-current="page" class="active" href="/{{page.ref}}">🇺🇸 en</a>
+    <a aria-current="page" class="active" href="/{{ langpath }}">🇺🇸 en</a>
     {% else %}
-    <a href="/{{page.ref}}">🇺🇸 en</a>
+    <a href="/{{ langpath }}">🇺🇸 en</a>
     {% endif %}
     {% if page.lang == "it" %}
-    <a aria-current="page" class="active" href="/it/{{page.ref}}">🇮🇹 it</a>
+    <a aria-current="page" class="active" href="/it/{{ langpath }}">🇮🇹 it</a>
     {% else %}
-    <a href="/it/{{page.ref}}">🇮🇹 it</a>
+    <a href="/it/{{ langpath }}">🇮🇹 it</a>
     {% endif %}
     {% if page.lang == "de" %}
-    <a aria-current="page" class="active" href="/de/{{page.ref}}">🇩🇪 de</a>
+    <a aria-current="page" class="active" href="/de/{{ langpath }}">🇩🇪 de</a>
     {% else %}
-    <a href="/de/{{page.ref}}">🇩🇪 de</a>
+    <a href="/de/{{ langpath }}">🇩🇪 de</a>
     {% endif %}
   </div>
 </div>

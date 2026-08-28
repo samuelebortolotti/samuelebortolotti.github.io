@@ -1,0 +1,23 @@
+{%- comment -%}
+Renders _data/news.yml as <ul class="news">. Params:
+  limit   (int)  - show only the newest N entries
+  compact (bool) - add the .compact class (smaller text, used on the home page)
+Each entry's text is Markdown: bold, emphasis and links are rendered.
+{%- endcomment -%}
+{%- assign items = site.data.news | sort: "date" | reverse -%}
+{%- if include.limit -%}{%- assign items = items | slice: 0, include.limit -%}{%- endif -%}
+<ul class="news{% if include.compact %} compact{% endif %}">
+{%- for item in items -%}
+  {%- assign text = item[page.lang] | default: item.en -%}
+  <li>
+    <time datetime="{{ item.date | date: '%Y-%m-%d' }}">
+      {%- case page.lang -%}
+      {%- when 'it' -%}{{ item.date | date: "%m/%Y" }}
+      {%- when 'de' -%}{{ item.date | date: "%m.%Y" }}
+      {%- else -%}{{ item.date | date: "%b %Y" }}
+      {%- endcase -%}
+    </time>
+    <span>{{ text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>
+  </li>
+{%- endfor -%}
+</ul>

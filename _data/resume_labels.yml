@@ -1,0 +1,37 @@
+# Section labels for the resume pages (rendered from _data/cv.yml).
+en:
+  education: Education
+  experience: Work Experience
+  teaching: Teaching
+  talks: Talks
+  collaborations: Research Collaborations
+  reviewing: Reviewing
+  training: Schools & Research Visits
+  skills: Skills
+  honors: Honors & Awards
+  publications: Publications
+  publications_note: "See the full list on the [publications page](/publications)."
+it:
+  education: Formazione
+  experience: Esperienza lavorativa
+  teaching: Attività didattica
+  talks: Presentazioni
+  collaborations: Collaborazioni di ricerca
+  reviewing: Attività di revisione
+  training: Scuole e periodi di ricerca
+  skills: Competenze
+  honors: Riconoscimenti
+  publications: Pubblicazioni
+  publications_note: "L'elenco completo è nella [pagina delle pubblicazioni](/it/publications)."
+de:
+  education: Ausbildung
+  experience: Berufserfahrung
+  teaching: Lehre
+  talks: Vorträge
+  collaborations: Forschungskooperationen
+  reviewing: Gutachtertätigkeit
+  training: Schulen & Forschungsaufenthalte
+  skills: Kenntnisse
+  honors: Auszeichnungen
+  publications: Veröffentlichungen
+  publications_note: "Die vollständige Liste finden Sie auf der [Publikationsseite](/de/publications)."
