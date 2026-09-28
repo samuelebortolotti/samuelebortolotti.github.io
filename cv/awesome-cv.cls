@@ -856,7 +856,7 @@
   \newblock%
   \par\vspace{0.3\baselineskip}
   \descriptionstyle{%
-    \fontsize{9pt}{1em}\bodyfontlight\color{graytext}%
+    \fontsize{9pt}{1em}\bodyfontlight\color{awesome}%
     \printfield{booktitle}%
     \setunit{\addcomma\space}%
     \printfield{year}%

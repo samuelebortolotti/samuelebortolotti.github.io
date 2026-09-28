@@ -26,7 +26,7 @@ it:
   # collaboration areas
   "Neuro-Symbolic AI": "IA neuro-simbolica"
   "Identifiability and Causality": "Identificabilità e causalità"
-  "Uncertainty Quantification and Calibration": "Quantificazione dell'incertezza e calibrazione"
+  "Uncertainty Quantification": "Quantificazione dell'incertezza"
   # skills
   "Programming": "Programmazione"
   "Miscellaneous": "Varie"
@@ -83,7 +83,7 @@ de:
   "Visiting Researcher": "Gastforscher"
   "Neuro-Symbolic AI": "Neuro-symbolische KI"
   "Identifiability and Causality": "Identifizierbarkeit und Kausalität"
-  "Uncertainty Quantification and Calibration": "Unsicherheitsquantifizierung und Kalibrierung"
+  "Uncertainty Quantification": "Unsicherheitsquantifizierung"
   "Programming": "Programmierung"
   "Miscellaneous": "Sonstiges"
   "Languages": "Sprachen"

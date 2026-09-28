@@ -33,3 +33,8 @@ gem 'wdm', '~> 0.1.1', platforms: %i[mingw x64_mingw mswin]
 gem 'http_parser.rb', '~> 0.6.0', platforms: [:jruby]
 
 gem 'webrick', '~> 1.8'
+
+# Task runner for the Rakefile (`rake publications`, `rake cv`, …). Not a
+# default gem inside `bundle exec`, so it must be declared explicitly for the
+# monthly-sync GitHub Actions workflow.
+gem 'rake', '~> 13.0'

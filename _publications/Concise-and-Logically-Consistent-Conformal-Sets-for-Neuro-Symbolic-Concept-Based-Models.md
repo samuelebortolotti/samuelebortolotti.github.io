@@ -33,20 +33,12 @@ Neuro-Symbolic Concept-based Models (NeSy-CBMs) are a family of architectures th
 ## How to cite
 
 ```
-@misc{bortolotti2026concise,
-  author        = {Samuele Bortolotti and
-                   Emanuele Marconato and
-                   Andrea Pugnana and
-                   Andrea Passerini and
-                   Stefano Teso},
-  title         = {Concise and Logically Consistent Conformal Sets for Neuro-Symbolic
-                   Concept-Based Models},
-  booktitle     = {arXiv preprint},
-  year          = {2026},
-  eprint        = {2605.18202},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.LG},
-  url           = {https://doi.org/10.48550/arXiv.2605.18202},
-  doi           = {10.48550/ARXIV.2605.18202}
+@inproceedings{bortolotti2026concise,
+  title     = {Concise and Logically Consistent Conformal Sets for Neuro-Symbolic
+               Concept-Based Models},
+  author    = {Bortolotti, Samuele and Marconato, Emanuele and Pugnana, Andrea and
+               Passerini, Andrea and Teso, Stefano},
+  booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems},
+  year      = {2026}
 }
 ```

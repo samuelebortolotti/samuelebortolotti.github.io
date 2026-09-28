@@ -94,13 +94,16 @@ collaborations:
 - area: Neuro-Symbolic AI
   people:
   - "[Stefano Teso](https://stefanoteso.github.io/), CiMeC, University of Trento, Italy"
-  - "[Andrea Passerini](https://disi.unitn.it/~passerini/), DISI, University of Trento"
-  - "[Antonio Vergari](http://nolovedeeplearning.com/), School of Informatics, University of Edinburgh"
-  - "[Emile van Krieken](https://www.emilevankrieken.com/), Vrije Universiteit Amsterdam"
+  - "[Andrea Passerini](https://disi.unitn.it/~passerini/), DISI, University of Trento, Italy"
+  - "[Antonio Vergari](http://nolovedeeplearning.com/), University of Edinburgh, UK"
+  - "[Emile van Krieken](https://www.emilevankrieken.com/), Vrije Universiteit Amsterdam, The Netherlands"
+  - "[Han Zhao](https://hanzhaoml.github.io/), University of Illinois Urbana-Champaign, USA"
+  - "[Efthymia Tsamoura](https://tsamoura.github.io/), Huawei Labs, UK"
+  - "[Tommaso Carraro](https://www.linkedin.com/in/tommaso-carraro/), Disney Research, Switzerland"
 - area: Identifiability and Causality
   people:
   - "[Emanuele Marconato](https://scholar.google.com/citations?hl=it&user=H0gXWAgAAAAJ&view_op=list_works&sortby=pubdate), CoCaLa, University of Copenhagen"
-- area: Uncertainty Quantification and Calibration
+- area: Uncertainty Quantification
   people:
   - "[Andrea Pugnana](https://andrepugni.github.io/), DISI, University of Trento"
 reviewing:

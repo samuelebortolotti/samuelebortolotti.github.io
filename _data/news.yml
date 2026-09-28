@@ -5,6 +5,12 @@
 # Publications: one entry for the preprint, one for acceptance / publication.
 # Keep the three languages in sync.
 
+- date: 2026-09-28
+  url: /publications/Concise-and-Logically-Consistent-Conformal-Sets-for-Neuro-Symbolic-Concept-Based-Models.html
+  en: 'Our paper **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** has been accepted as a poster at [NeurIPS 2026](https://neurips.cc/Conferences/2026) main conference! It will also be presented at the ["E-Values: From Statistics to ML"](https://e-values-workshop.github.io/) workshop in Paris.'
+  it: 'Il nostro articolo **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** è stato accettato come poster alla main conference di [NeurIPS 2026](https://neurips.cc/Conferences/2026)! Sarà inoltre presentato al workshop ["E-Values: From Statistics to ML"](https://e-values-workshop.github.io/) a Parigi.'
+  de: 'Unser Paper **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** wurde als Poster für die Hauptkonferenz der [NeurIPS 2026](https://neurips.cc/Conferences/2026) angenommen! Es wird außerdem beim Workshop ["E-Values: From Statistics to ML"](https://e-values-workshop.github.io/) in Paris vorgestellt.'
+
 - date: 2026-08-01
   url: /publications/Concise-and-Logically-Consistent-Conformal-Sets-for-Neuro-Symbolic-Concept-Based-Models.html
   en: 'Our paper **"Concise and Logically Consistent Conformal Sets for Neuro-Symbolic Concept-Based Models"** has been accepted at the [HLDM workshop](https://sml.disi.unitn.it/hldm26.html) at [ECML-PKDD 2026](https://ecmlpkdd.org/2026/)!'
