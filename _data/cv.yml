@@ -113,6 +113,8 @@ reviewing:
 - "[Neurosymbolic AI (NeSy)](https://nesy-ai.org/conferences/nesy-2026) — 2026"
 - "[Hybrid Human-Machine Learning and Decision Making at ECML-PKDD](https://sml.disi.unitn.it/hldm26.html) — 2026"
 - "[Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/) — 2026"
+- "[International Conference on Learning Representations (ICLR)](https://iclr.cc/) — 2026"
+- "[Neurosymbolic Artificial Intelligence (NAI) journal](https://neurosymbolic-ai-journal.com/) — 2026"
 training:
 - position: Attendee
   title: "[Nordic Probabilistic AI School](https://nordic.probabilistic.ai/)"
@@ -128,6 +130,26 @@ training:
   items:
   - Visiting the [APRIL](https://april-tools.github.io/) Lab under the supervision of professor [Antonio Vergari](http://nolovedeeplearning.com/).
   - Research project on Constraint Learning using Large Language Models.
+software:
+- position: 'First Author and Maintainer • DeepProbLog, LogicTensorNetworks, CLIP, TCAV, Concept-based Models, Reasoning Shortcuts, #SAT solvers, Blender'
+  title: "[rsbench](https://unitn-sml.github.io/rsbench/): A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts"
+  location: NeurIPS 2024, Datasets & Benchmarks
+  date: '2024'
+  items:
+  - Benchmark suite for systematically evaluating reasoning shortcuts in learning & reasoning tasks, covering arithmetic, logic and high-stakes (autonomous driving) settings.
+  - Configurable data generators (MNMath, MNLogic, Kand-Logic, CLE4EVR, SDD-OIA) for building custom tasks and out-of-distribution splits.
+  - Concept-quality metrics, plus `countrss`, a tool that formally verifies whether a task admits reasoning shortcuts by reducing it to model counting, with no training required.
+  - 'Code: [github.com/unitn-sml/rsbench-code](https://github.com/unitn-sml/rsbench-code) • Data: [Zenodo](https://zenodo.org/doi/10.5281/zenodo.11612555), Website: [https://unitn-sml.github.io/rsbench/](https://unitn-sml.github.io/rsbench/)'
+- position: First Author and Maintainer • LLMs, Auto-Formalization, PySAT, CPMpy, PySDD, Sympy, Semantic Probabilistic Layers, Semantic Loss, Knowledge Compilation, Model Counting
+  title: "[auto-nesy-bench](https://unitn-sml.github.io/auto-nesy-bench/): Auto-Formalizing Neuro-Symbolic Predictors"
+  location: Preprint
+  date: '2026'
+  items:
+  - Benchmark for evaluating how well LLMs translate natural-language domain knowledge into logical constraints for Neuro-Symbolic predictors.
+  - 18 NeSy tasks (9--102 variables) spanning arithmetic, puzzles, ranking, path finding, vision, text and autonomous driving, each with detailed and non-detailed descriptions and annotated data.
+  - 'End-to-end pipeline: LLM formalization in five formats (DIMACS, NAT, PySAT, CPMpy, SymPy) with self-verification, compilation to circuits, and training of SPL and Semantic Loss predictors.'
+  - Model-counting-based formula metrics (precision, recall, F1) and downstream metrics (consistency, formula relationship, model-count ratio).
+  - 'Code: [github.com/unitn-sml/auto-nesy-bench-code](https://github.com/unitn-sml/auto-nesy-bench-code) • Website: [https://unitn-sml.github.io/auto-nesy-bench/](https://unitn-sml.github.io/auto-nesy-bench/)'
 skills:
 - category: Programming
   skills: Python (proficient), Java (proficient), Ruby (intermediate), JavaScript (intermediate), TypeScript (intermediate), R (intermediate), C++ (intermediate), C (intermediate), C# (academic), Matlab (academic)

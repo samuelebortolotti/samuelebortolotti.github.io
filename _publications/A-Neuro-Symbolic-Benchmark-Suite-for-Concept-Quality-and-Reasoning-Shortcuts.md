@@ -36,7 +36,7 @@ The advent of powerful neural classifiers has increased interest in problems tha
 
 ```
 @inproceedings{bortolotti2024benchmark,
-  author = {Bortolotti, Samuele and Marconato, Emanuele and Carraro, Tommaso and Morettin, Paolo and van Krieken, Emile and Vergari, Antonio and Teso, Stefano and Passerini, Andrea},
+  author = {Bortolotti*, Samuele and Marconato*, Emanuele and Carraro, Tommaso and Morettin, Paolo and van Krieken, Emile and Vergari, Antonio and Teso, Stefano and Passerini, Andrea},
   booktitle = {Advances in Neural Information Processing Systems},
   editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
   pages = {115861--115905},

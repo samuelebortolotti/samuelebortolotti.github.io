@@ -36,7 +36,7 @@ Neuro-Symbolic (NeSy) predictors that conform to symbolic knowledge - encoding, 
 ```
 @InProceedings{marconato24bears,
   title = 	 {BEARS Make Neuro-Symbolic Models Aware of their Reasoning Shortcuts},
-  author =       {Marconato, Emanuele and Bortolotti, Samuele and van Krieken, Emile and Vergari, Antonio and Passerini, Andrea and Teso, Stefano},
+  author =       {Marconato*, Emanuele and Bortolotti*, Samuele and van Krieken*, Emile and Vergari, Antonio and Passerini, Andrea and Teso, Stefano},
   booktitle = 	 {Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence},
   pages = 	 {2399--2433},
   year = 	 {2024},

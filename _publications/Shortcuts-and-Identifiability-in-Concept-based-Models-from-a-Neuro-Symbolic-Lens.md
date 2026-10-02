@@ -35,7 +35,7 @@ Concept-based Models are neural networks that learn a concept extractor to map i
 ```
 @inproceedings{bortolotti2025shortcuts,
   title={Shortcuts and Identifiability in Concept-based Models from a Neuro-Symbolic Lens},
-  author = {Bortolotti, Samuele and Marconato, Emanuele and Morettin, Paolo and Passerini, Andrea and Teso, Stefano},
+  author = {Bortolotti*, Samuele and Marconato*, Emanuele and Morettin, Paolo and Passerini, Andrea and Teso, Stefano},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
   url={https://openreview.net/forum?id=rdp1dLxyMI}

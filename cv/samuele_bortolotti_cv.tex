@@ -330,6 +330,21 @@
   ]
 \end{refsection}
 
+%-------------------------------------------------------------------------------
+%  PREPRINTS
+%-------------------------------------------------------------------------------
+
+\begin{refsection}
+  \nocite{bortolotti2026autoformalizing}
+
+  \printbibliography[
+   sorting=ydnt,
+   heading=subbibnumbered,
+   title={\bodyfont Preprints [\refsectionbibcount]},
+   type=misc
+ ]
+\end{refsection}
+
 * = Equal contribution.
 
 %-------------------------------------------------------------------------------
@@ -381,7 +396,7 @@
     {With Emanuele Marconato}
 \end{cventries}
 %------ END resume/talks.tex ------
-\newpage
+% \newpage
 %------ BEGIN resume/collaborations.tex ------
 \cvsection{Main Research Collaborations}
 
@@ -449,6 +464,8 @@
             \item {\href{https://nesy-ai.org/conferences/nesy-2026}{Neurosymbolic AI (NeSy)}}\hfill2026
             \item {\href{https://sml.disi.unitn.it/hldm26.html}{Hybrid Human-Machine Learning and Decision Making at ECML-PKDD}}\hfill2026
             \item {\href{https://jmlr.org/tmlr/}{Transactions on Machine Learning Research (TMLR)}}\hfill2026
+            \item {\href{https://iclr.cc/}{International Conference on Learning Representations (ICLR)}}\hfill2026
+            \item {\href{https://neurosymbolic-ai-journal.com/}{Neurosymbolic Artificial Intelligence (NAI) journal}}\hfill2026
       \end{cvitems}
     }
 \end{cventries}
@@ -482,6 +499,44 @@
     }
 \end{cventries}
 %------ END resume/extra_training.tex ------
+%------ BEGIN resume/software.tex ------
+\cvsection{Software}
+
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {First Author and Maintainer \textbullet{} DeepProbLog, LogicTensorNetworks, CLIP, TCAV, Concept-based Models, Reasoning Shortcuts, \#SAT solvers, Blender} % Role / Stack
+    {\href{https://unitn-sml.github.io/rsbench/}{rsbench}: A Neuro-Symbolic Benchmark Suite for Concept Quality and Reasoning Shortcuts} % Name
+    {NeurIPS 2024, Datasets \& Benchmarks} % Venue
+    {2024} % Date
+    {
+      \begin{cvitems}
+        \item {Benchmark suite for systematically evaluating reasoning shortcuts in learning \& reasoning tasks, covering arithmetic, logic and high-stakes (autonomous driving) settings.}
+        \item {Configurable data generators (MNMath, MNLogic, Kand-Logic, CLE4EVR, SDD-OIA) for building custom tasks and out-of-distribution splits.}
+        \item {Concept-quality metrics, plus \texttt{countrss}, a tool that formally verifies whether a task admits reasoning shortcuts by reducing it to model counting, with no training required.}
+        \item {Code: \href{https://github.com/unitn-sml/rsbench-code}{github.com/unitn-sml/rsbench-code} \textbullet{} Data: \href{https://zenodo.org/doi/10.5281/zenodo.11612555}{Zenodo}, Website: \href{https://unitn-sml.github.io/rsbench/}{https://unitn-sml.github.io/rsbench/}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {First Author and Maintainer \textbullet{} LLMs, Auto-Formalization, PySAT, CPMpy, PySDD, Sympy, Semantic Probabilistic Layers, Semantic Loss, Knowledge Compilation, Model Counting} % Role / Stack
+    {\href{https://unitn-sml.github.io/auto-nesy-bench/}{auto-nesy-bench}: Auto-Formalizing Neuro-Symbolic Predictors} % Name
+    {Preprint} % Venue
+    {2026} % Date
+    {
+      \begin{cvitems}
+        \item {Benchmark for evaluating how well LLMs translate natural-language domain knowledge into logical constraints for Neuro-Symbolic predictors.}
+        \item {18 NeSy tasks (9--102 variables) spanning arithmetic, puzzles, ranking, path finding, vision, text and autonomous driving, each with detailed and non-detailed descriptions and annotated data.}
+        \item {End-to-end pipeline: LLM formalization in five formats (DIMACS, NAT, PySAT, CPMpy, SymPy) with self-verification, compilation to circuits, and training of SPL and Semantic Loss predictors.}
+        \item {Model-counting-based formula metrics (precision, recall, F1) and downstream metrics (consistency, formula relationship, model-count ratio).}
+        \item {Code: \href{https://github.com/unitn-sml/auto-nesy-bench-code}{github.com/unitn-sml/auto-nesy-bench-code} \textbullet{} Website: \href{https://unitn-sml.github.io/auto-nesy-bench/}{https://unitn-sml.github.io/auto-nesy-bench/}}
+      \end{cvitems}
+    }
+
+\end{cventries}
+%------ END resume/software.tex ------
 %------ BEGIN resume/skills.tex ------
 \cvsection{Skills}
 

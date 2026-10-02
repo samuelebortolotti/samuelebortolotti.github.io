@@ -39,9 +39,9 @@ Neuro-symbolic (NeSy) AI aims to develop deep neural networks whose predictions 
 
 ```
 @article{marconato2026symbol,
-  author       = {Emanuele Marconato and
-                  Samuele Bortolotti and
-                  Emile van Krieken and
+  author       = {Emanuele Marconato* and
+                  Samuele Bortolotti* and
+                  Emile van Krieken* and
                   Paolo Morettin and
                   Elena Umili and
                   Antonio Vergari and

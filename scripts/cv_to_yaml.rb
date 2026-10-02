@@ -90,7 +90,9 @@ def inline(tex)
   end
   s = s.gsub(/\\textbf\s*\{([^{}]*)\}/) { "**#{Regexp.last_match(1).strip}**" }
   s = s.gsub(/\\(?:emph|textit|em)\s*\{([^{}]*)\}/) { "_#{Regexp.last_match(1).strip}_" }
+  s = s.gsub(/\\texttt\s*\{([^{}]*)\}/) { "`#{Regexp.last_match(1).strip}`" }
   s = s.gsub(/\\entrydatestyle\s*\{([^{}]*)\}/) { Regexp.last_match(1) }
+  s = s.gsub(/\\textbullet\s*(?:\{\})?/, "•")
   s = s.gsub(/\\begin\{minipage\}(?:\[[^\]]*\])?\s*\{[^{}]*\}/, "")
   s = s.gsub(/\\end\{minipage\}/, "")
   s = s.gsub(/\\hfill\s*/, " — ")

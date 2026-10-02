@@ -57,6 +57,15 @@ _{{ tr[e.position] | default: e.position }}_{% if e.location %} &middot; {{ e.lo
 - {{ tr[it] | default: it }}
 {%- endfor %}
 {% endfor %}{% endif %}
+{% if cv.software %}
+## {{ L.software }}
+{% for e in cv.software %}
+### {{ e.title }}
+_{{ e.position }}_{% if e.location %} &middot; {{ e.location }}{% endif %}{% if e.date %} &middot; {{ e.date }}{% endif %}
+{% for it in e.items %}
+- {{ it }}
+{%- endfor %}
+{% endfor %}{% endif %}
 {% if cv.reviewing %}
 ## {{ L.reviewing }}
 {% for r in cv.reviewing %}
